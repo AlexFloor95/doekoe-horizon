@@ -172,6 +172,19 @@
                                     <constraint firstAttribute="height" constant="35" id="Wxa-g4-zLm"/>
                                 </constraints>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="1RW-IG-mgq">
+                                <rect key="frame" x="279" y="41.5" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="NBg-L7-iue"/>
+                                    <constraint firstAttribute="width" constant="80" id="wbn-bw-LW0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Dosis-SemiBold" family="Dosis" pointSize="16"/>
+                                <state key="normal" backgroundImage="btn_ga_werken">
+                                    <string key="title">   Ga
+Werken!</string>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Je cash" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EYt-Yh-Vjd">
                                 <rect key="frame" x="8" y="51" width="140" height="28"/>
                                 <fontDescription key="fontDescription" name="Dosis-Regular" family="Dosis" pointSize="22"/>
@@ -202,19 +215,24 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="1RW-IG-mgq">
-                                <rect key="frame" x="279" y="41.5" width="80" height="80"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="80" id="NBg-L7-iue"/>
-                                    <constraint firstAttribute="width" constant="80" id="wbn-bw-LW0"/>
-                                </constraints>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gezondheid_bar" translatesAutoresizingMaskIntoConstraints="NO" id="7XY-9G-ueL">
+                                <rect key="frame" x="216" y="431" width="127" height="32"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gezondheid" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BJB-ng-usK">
+                                <rect key="frame" x="268" y="406" width="75" height="21"/>
                                 <fontDescription key="fontDescription" name="Dosis-SemiBold" family="Dosis" pointSize="16"/>
-                                <state key="normal" backgroundImage="btn_ga_werken">
-                                    <string key="title">     Ga
-Werken!</string>
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swag" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OWt-dx-MLM">
+                                <rect key="frame" x="309" y="467" width="34" height="21"/>
+                                <fontDescription key="fontDescription" name="Dosis-SemiBold" family="Dosis" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gezondheid_bar" translatesAutoresizingMaskIntoConstraints="NO" id="zx8-hO-nkU">
+                                <rect key="frame" x="216" y="494" width="127" height="32"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -230,13 +248,17 @@ Werken!</string>
                             <constraint firstItem="EkS-DI-RL3" firstAttribute="centerX" secondItem="tRy-xk-Wy4" secondAttribute="centerX" id="GhZ-EN-QCm"/>
                             <constraint firstItem="tRy-xk-Wy4" firstAttribute="bottom" secondItem="lH3-T1-f2D" secondAttribute="bottom" id="H2a-fR-ahX"/>
                             <constraint firstItem="YTG-gj-xRs" firstAttribute="top" secondItem="hqZ-jE-OnV" secondAttribute="top" id="IkG-5x-bNb"/>
+                            <constraint firstItem="KWg-U1-wmd" firstAttribute="trailing" secondItem="OWt-dx-MLM" secondAttribute="trailing" constant="32" id="JKA-qo-TbF"/>
                             <constraint firstItem="KWg-U1-wmd" firstAttribute="trailing" secondItem="1RW-IG-mgq" secondAttribute="trailing" constant="16" id="JUX-n2-BJy"/>
                             <constraint firstItem="EkS-DI-RL3" firstAttribute="centerY" secondItem="tRy-xk-Wy4" secondAttribute="centerY" constant="-2" id="JVK-2n-jLN"/>
                             <constraint firstItem="A7S-yK-Pgz" firstAttribute="centerX" secondItem="TvG-j4-49a" secondAttribute="centerX" id="Mrb-a9-Ocg"/>
                             <constraint firstItem="tRy-xk-Wy4" firstAttribute="leading" secondItem="lH3-T1-f2D" secondAttribute="trailing" constant="6" id="N2g-IU-jjo"/>
                             <constraint firstItem="MYO-Us-P6p" firstAttribute="centerX" secondItem="A7S-yK-Pgz" secondAttribute="centerX" id="OeW-e1-Hzc"/>
                             <constraint firstItem="YTG-gj-xRs" firstAttribute="trailing" secondItem="KWg-U1-wmd" secondAttribute="trailing" id="Onu-JT-K4t"/>
+                            <constraint firstItem="7XY-9G-ueL" firstAttribute="top" secondItem="BJB-ng-usK" secondAttribute="bottom" constant="4" id="RFi-6P-6bt"/>
                             <constraint firstItem="A7S-yK-Pgz" firstAttribute="width" secondItem="TvG-j4-49a" secondAttribute="width" id="RJT-6u-pgi"/>
+                            <constraint firstItem="zx8-hO-nkU" firstAttribute="top" secondItem="OWt-dx-MLM" secondAttribute="bottom" constant="6" id="TEc-tG-Zex"/>
+                            <constraint firstItem="KWg-U1-wmd" firstAttribute="trailing" secondItem="zx8-hO-nkU" secondAttribute="trailing" constant="32" id="V7Q-Qy-UJX"/>
                             <constraint firstItem="KWg-U1-wmd" firstAttribute="trailing" secondItem="eP0-AQ-Mdt" secondAttribute="trailing" constant="16" id="VNR-qJ-DIJ"/>
                             <constraint firstItem="caq-c2-eea" firstAttribute="leading" secondItem="KWg-U1-wmd" secondAttribute="leading" constant="20" id="ViK-sq-hph"/>
                             <constraint firstItem="Puu-iQ-SNq" firstAttribute="width" secondItem="lH3-T1-f2D" secondAttribute="width" id="WAn-5E-b52"/>
@@ -246,9 +268,14 @@ Werken!</string>
                             <constraint firstItem="EYt-Yh-Vjd" firstAttribute="width" secondItem="lH3-T1-f2D" secondAttribute="width" id="hyL-rF-q9e"/>
                             <constraint firstItem="A7S-yK-Pgz" firstAttribute="centerY" secondItem="TvG-j4-49a" secondAttribute="centerY" id="iry-PK-tr0"/>
                             <constraint firstItem="TvG-j4-49a" firstAttribute="top" secondItem="MYO-Us-P6p" secondAttribute="bottom" constant="8" id="lD3-ka-zTq"/>
+                            <constraint firstItem="zx8-hO-nkU" firstAttribute="bottom" secondItem="caq-c2-eea" secondAttribute="bottom" constant="-32" id="mbW-De-dK0"/>
                             <constraint firstItem="KWg-U1-wmd" firstAttribute="bottom" secondItem="caq-c2-eea" secondAttribute="bottom" constant="60" id="nZB-Zo-0FV"/>
+                            <constraint firstItem="KWg-U1-wmd" firstAttribute="trailing" secondItem="BJB-ng-usK" secondAttribute="trailing" constant="32" id="oGy-E3-Ryj"/>
                             <constraint firstAttribute="bottom" secondItem="YTG-gj-xRs" secondAttribute="bottom" id="rn2-EC-4MP"/>
                             <constraint firstItem="lH3-T1-f2D" firstAttribute="top" secondItem="KWg-U1-wmd" secondAttribute="top" constant="16" id="tQf-w8-RWy"/>
+                            <constraint firstItem="zx8-hO-nkU" firstAttribute="width" secondItem="7XY-9G-ueL" secondAttribute="width" id="tSQ-Qn-ZzQ"/>
+                            <constraint firstItem="KWg-U1-wmd" firstAttribute="trailing" secondItem="7XY-9G-ueL" secondAttribute="trailing" constant="32" id="vqp-1K-XAf"/>
+                            <constraint firstItem="OWt-dx-MLM" firstAttribute="top" secondItem="7XY-9G-ueL" secondAttribute="bottom" constant="4" id="w7B-kp-GeG"/>
                             <constraint firstItem="Puu-iQ-SNq" firstAttribute="centerX" secondItem="lH3-T1-f2D" secondAttribute="centerX" id="wCN-0H-23n"/>
                             <constraint firstItem="eP0-AQ-Mdt" firstAttribute="top" secondItem="KWg-U1-wmd" secondAttribute="top" constant="147" id="zOF-iZ-Ojz"/>
                         </constraints>
@@ -431,6 +458,7 @@ Werken!</string>
         <image name="btn_dagelijks_in" width="112" height="34"/>
         <image name="btn_dagelijks_uit" width="103" height="36"/>
         <image name="btn_ga_werken" width="79" height="79"/>
+        <image name="gezondheid_bar" width="127" height="32"/>
         <image name="icn_settings" width="22" height="22"/>
         <image name="icn_shop" width="28" height="25"/>
         <image name="icn_you@2x_thumb" width="66" height="68"/>
