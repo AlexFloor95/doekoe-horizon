@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 class CharacterView: XibView {
     @IBOutlet weak var HairImageView: UIImageView!
     @IBOutlet weak var HeadImageView: UIImageView!

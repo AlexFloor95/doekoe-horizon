@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3EF83AA09A7721F9786D9494 /* Pods_Doekoe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FEDCD06909C03C4B7F6A752 /* Pods_Doekoe.framework */; };
 		5E45859E1FA1E32900398B71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E45859D1FA1E32900398B71 /* LaunchScreen.storyboard */; };
 		5E4585A01FA1E34F00398B71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E45859F1FA1E34F00398B71 /* Main.storyboard */; };
 		5E4585A21FA1E6BA00398B71 /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4585A11FA1E6BA00398B71 /* ShopViewController.swift */; };
@@ -22,11 +23,14 @@
 		5E6776E41FA1D3BC0014A708 /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6776E31FA1D3BC0014A708 /* CharacterView.swift */; };
 		5E6776E61FA1D4FC0014A708 /* Cosmetics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6776E51FA1D4FC0014A708 /* Cosmetics.swift */; };
 		5E6776EC1FA1DE110014A708 /* XibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6776EB1FA1DE110014A708 /* XibView.swift */; };
-		5E8DEE0D1FA20CAD00027504 /* LevelsIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8DEE0C1FA20CAD00027504 /* LevelsIndicatorView.swift */; };
-		5E8DEE0F1FA20CC500027504 /* LevelsIndicator.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E8DEE0E1FA20CC500027504 /* LevelsIndicator.xib */; };
+		5E8D8C1C1FA215F1009869DE /* ToolTipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8D8C1B1FA215F1009869DE /* ToolTipView.swift */; };
+		5E8D8C1E1FA22BBE009869DE /* dosis in Resources */ = {isa = PBXBuildFile; fileRef = 5E8D8C1D1FA22BB8009869DE /* dosis */; };
+		5E8DEE111FA210CE00027504 /* TextBubble.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E8DEE101FA210CE00027504 /* TextBubble.xib */; };
+		5E8DEE131FA210EE00027504 /* TextBubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8DEE121FA210EE00027504 /* TextBubbleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2FEDCD06909C03C4B7F6A752 /* Pods_Doekoe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Doekoe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E45859D1FA1E32900398B71 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E45859F1FA1E34F00398B71 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		5E4585A11FA1E6BA00398B71 /* ShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
@@ -44,8 +48,12 @@
 		5E6776E31FA1D3BC0014A708 /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
 		5E6776E51FA1D4FC0014A708 /* Cosmetics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cosmetics.swift; sourceTree = "<group>"; };
 		5E6776EB1FA1DE110014A708 /* XibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibView.swift; sourceTree = "<group>"; };
-		5E8DEE0C1FA20CAD00027504 /* LevelsIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsIndicatorView.swift; sourceTree = "<group>"; };
-		5E8DEE0E1FA20CC500027504 /* LevelsIndicator.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LevelsIndicator.xib; sourceTree = "<group>"; };
+		5E8D8C1B1FA215F1009869DE /* ToolTipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolTipView.swift; sourceTree = "<group>"; };
+		5E8D8C1D1FA22BB8009869DE /* dosis */ = {isa = PBXFileReference; lastKnownFileType = folder; path = dosis; sourceTree = "<group>"; };
+		5E8DEE101FA210CE00027504 /* TextBubble.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextBubble.xib; sourceTree = "<group>"; };
+		5E8DEE121FA210EE00027504 /* TextBubbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBubbleView.swift; sourceTree = "<group>"; };
+		7F8E7EFB61FD5E64F9F036EC /* Pods-Doekoe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Doekoe.release.xcconfig"; path = "Pods/Target Support Files/Pods-Doekoe/Pods-Doekoe.release.xcconfig"; sourceTree = "<group>"; };
+		E91AF3E39A572E1ED2159B92 /* Pods-Doekoe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Doekoe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Doekoe/Pods-Doekoe.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EF83AA09A7721F9786D9494 /* Pods_Doekoe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +73,7 @@
 			children = (
 				5E6776EB1FA1DE110014A708 /* XibView.swift */,
 				5E4585A81FA1F4AD00398B71 /* Enumerations.swift */,
+				5E8D8C1B1FA215F1009869DE /* ToolTipView.swift */,
 			);
 			name = Helpers;
 			sourceTree = "<group>";
@@ -72,8 +82,8 @@
 			isa = PBXGroup;
 			children = (
 				5E4585AB1FA1F77400398B71 /* DashboardViewController.swift */,
-				5E8DEE0C1FA20CAD00027504 /* LevelsIndicatorView.swift */,
-				5E8DEE0E1FA20CC500027504 /* LevelsIndicator.xib */,
+				5E8DEE101FA210CE00027504 /* TextBubble.xib */,
+				5E8DEE121FA210EE00027504 /* TextBubbleView.swift */,
 			);
 			path = Dashboard;
 			sourceTree = "<group>";
@@ -91,6 +101,8 @@
 			children = (
 				5E6776CA1FA1CEB00014A708 /* Doekoe */,
 				5E6776C91FA1CEB00014A708 /* Products */,
+				DF78B7EAB15A65DCF7E8F3B6 /* Pods */,
+				EB8A9BBD9951276B1F68C93C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +117,7 @@
 		5E6776CA1FA1CEB00014A708 /* Doekoe */ = {
 			isa = PBXGroup;
 			children = (
+				5E8D8C1D1FA22BB8009869DE /* dosis */,
 				5E4585AD1FA1FCB800398B71 /* Services */,
 				5E4585AA1FA1F76100398B71 /* Dashboard */,
 				5E4585A71FA1F49200398B71 /* Helpers */,
@@ -156,6 +169,23 @@
 			path = Shop;
 			sourceTree = "<group>";
 		};
+		DF78B7EAB15A65DCF7E8F3B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E91AF3E39A572E1ED2159B92 /* Pods-Doekoe.debug.xcconfig */,
+				7F8E7EFB61FD5E64F9F036EC /* Pods-Doekoe.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EB8A9BBD9951276B1F68C93C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2FEDCD06909C03C4B7F6A752 /* Pods_Doekoe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -163,9 +193,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E6776DA1FA1CEB00014A708 /* Build configuration list for PBXNativeTarget "Doekoe" */;
 			buildPhases = (
+				8F2ACCBB4F9BEC4FB00E575E /* [CP] Check Pods Manifest.lock */,
 				5E6776C41FA1CEB00014A708 /* Sources */,
 				5E6776C51FA1CEB00014A708 /* Frameworks */,
 				5E6776C61FA1CEB00014A708 /* Resources */,
+				C710C35061EAE5C275B073FF /* [CP] Embed Pods Frameworks */,
+				B38F6D6937948D713AD3E3B6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -215,15 +248,70 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E8DEE0F1FA20CC500027504 /* LevelsIndicator.xib in Resources */,
 				5E6776D31FA1CEB00014A708 /* Assets.xcassets in Resources */,
 				5E4585A01FA1E34F00398B71 /* Main.storyboard in Resources */,
 				5E45859E1FA1E32900398B71 /* LaunchScreen.storyboard in Resources */,
+				5E8D8C1E1FA22BBE009869DE /* dosis in Resources */,
+				5E8DEE111FA210CE00027504 /* TextBubble.xib in Resources */,
 				5E6776E21FA1D3230014A708 /* Character.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8F2ACCBB4F9BEC4FB00E575E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Doekoe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B38F6D6937948D713AD3E3B6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Doekoe/Pods-Doekoe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C710C35061EAE5C275B073FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Doekoe/Pods-Doekoe-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/EasyTipView/EasyTipView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EasyTipView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Doekoe/Pods-Doekoe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5E6776C41FA1CEB00014A708 /* Sources */ = {
@@ -231,13 +319,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E6776E61FA1D4FC0014A708 /* Cosmetics.swift in Sources */,
+				5E8D8C1C1FA215F1009869DE /* ToolTipView.swift in Sources */,
 				5E4585A41FA1E6E800398B71 /* QuizViewController.swift in Sources */,
 				5E4585A91FA1F4AD00398B71 /* Enumerations.swift in Sources */,
-				5E8DEE0D1FA20CAD00027504 /* LevelsIndicatorView.swift in Sources */,
 				5E6776E41FA1D3BC0014A708 /* CharacterView.swift in Sources */,
 				5E4585A21FA1E6BA00398B71 /* ShopViewController.swift in Sources */,
 				5E6776CE1FA1CEB00014A708 /* OnboardingViewController.swift in Sources */,
 				5E4585AF1FA1FCDF00398B71 /* CharacterService.swift in Sources */,
+				5E8DEE131FA210EE00027504 /* TextBubbleView.swift in Sources */,
 				5E6776EC1FA1DE110014A708 /* XibView.swift in Sources */,
 				5E4585AC1FA1F77400398B71 /* DashboardViewController.swift in Sources */,
 				5E6776CC1FA1CEB00014A708 /* AppDelegate.swift in Sources */,
@@ -357,6 +446,7 @@
 		};
 		5E6776DB1FA1CEB00014A708 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E91AF3E39A572E1ED2159B92 /* Pods-Doekoe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -372,6 +462,7 @@
 		};
 		5E6776DC1FA1CEB00014A708 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F8E7EFB61FD5E64F9F036EC /* Pods-Doekoe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
