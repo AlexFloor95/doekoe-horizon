@@ -16,10 +16,7 @@ class Character {
     private let INITIAL_EARNINGS = 50
     private let INITIAL_COSTS = 0
     // initial selected cosmetics
-    private let INITIAL_HAIR = 0
-    private let INITIAL_HEAD = 0
-    private let INITIAL_SHIRT = 0
-    private let INITIAL_TROUSERS = 0
+    private let INITIAL_COSMETICS = 0
     
     var money : Int?
     var health : Int?
@@ -31,20 +28,16 @@ class Character {
     var gender : Gender?
     var age : Int?
     // cosmetics
-    var selected_hair : Int?
-    var selected_head : Int?
-    var selected_shirt : Int?
-    var selected_trousers : Int?
+    var selected_cosmetics : Int?
     
     init() {
+        // TODO: refactor
+        Cosmetics.loadCosmetics()
         money = INITIAL_MONEY
         health = INITIAL_HEALTH
         swagLevel = INITIAL_SWAG
         earnings = INITIAL_EARNINGS
         costs = INITIAL_COSTS
-        selected_hair = INITIAL_HAIR
-        selected_head = INITIAL_HEAD
-        selected_shirt = INITIAL_SHIRT
-        selected_trousers = INITIAL_TROUSERS
+        selected_cosmetics = INITIAL_COSMETICS
     }
 }

@@ -15,8 +15,11 @@ class OnboardingViewController: UIViewController {
     
     @IBOutlet weak var startButton: UIButton!
     
+    @IBOutlet weak var characterView: CharacterView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        characterView.initializeCharacterView(withCharacter: Character())
         
     }
     

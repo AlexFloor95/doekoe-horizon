@@ -8,19 +8,13 @@
 
 import UIKit
 
-
 class CharacterView: XibView {
-    @IBOutlet weak var HairImageView: UIImageView!
-    @IBOutlet weak var HeadImageView: UIImageView!
-    @IBOutlet weak var ShirtImageView: UIImageView!
-    @IBOutlet weak var TrousersImageView: UIImageView!
+
+    @IBOutlet weak var characterImageView: UIImageView!
     
     func initializeCharacterView(withCharacter character : Character) {
         // Set the correct images according to selected cosmetics
-        HairImageView.image = Cosmetics.hairCosmetics![character.selected_hair!]
-        HeadImageView.image = Cosmetics.headCosmetics![character.selected_head!]
-        ShirtImageView.image = Cosmetics.shirtCosmetics![character.selected_shirt!]
-        TrousersImageView.image = Cosmetics.trouserCosmetics![character.selected_trousers!]
+        characterImageView.image = Cosmetics.characterCosmetics![character.selected_cosmetics!]
     }
     
 }

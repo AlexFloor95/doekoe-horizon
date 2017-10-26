@@ -9,44 +9,31 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CharacterView" customModule="Doekoe" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CharacterView" customModule="Doekoe" customModuleProvider="target">
+            <connections>
+                <outlet property="characterImageView" destination="MUo-sa-JkK" id="1Ny-nO-bwB"/>
+            </connections>
+        </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CharacterView" customModule="Doekoe" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VD8-pc-xYt">
-                    <rect key="frame" x="67" y="61" width="240" height="85"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="symbols-character" translatesAutoresizingMaskIntoConstraints="NO" id="XS0-rG-PaT">
-                    <rect key="frame" x="67" y="148" width="240" height="128"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="r4K-WT-j77">
-                    <rect key="frame" x="67" y="278" width="240" height="128"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MUo-sa-JkK">
-                    <rect key="frame" x="67" y="408" width="240" height="128"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="MUo-sa-JkK">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                 </imageView>
             </subviews>
-            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="MUo-sa-JkK" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="B7d-be-ICG"/>
+                <constraint firstItem="MUo-sa-JkK" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Ywu-s9-qHD"/>
+                <constraint firstItem="MUo-sa-JkK" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="fZV-vt-5qd"/>
+                <constraint firstItem="MUo-sa-JkK" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="h3b-au-h2d"/>
+            </constraints>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <userDefinedRuntimeAttributes>
                 <userDefinedRuntimeAttribute type="string" keyPath="keyPath" value="Character"/>
             </userDefinedRuntimeAttributes>
-            <connections>
-                <outlet property="HairImageView" destination="VD8-pc-xYt" id="olb-j3-FPg"/>
-                <outlet property="HeadImageView" destination="XS0-rG-PaT" id="yhJ-RP-p32"/>
-                <outlet property="ShirtImageView" destination="r4K-WT-j77" id="bVQ-hh-0Rh"/>
-                <outlet property="TrousersImageView" destination="MUo-sa-JkK" id="lNg-fm-Jao"/>
-            </connections>
             <point key="canvasLocation" x="24.5" y="51.5"/>
         </view>
     </objects>
-    <resources>
-        <image name="symbols-character" width="326" height="714"/>
-    </resources>
 </document>

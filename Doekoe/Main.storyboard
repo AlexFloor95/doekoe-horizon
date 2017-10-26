@@ -94,6 +94,7 @@
                     </view>
                     <connections>
                         <outlet property="ageTextField" destination="4R8-Pf-kio" id="oul-QJ-l6I"/>
+                        <outlet property="characterView" destination="a5D-Ad-3WS" id="Hwe-V3-Awc"/>
                         <outlet property="nameTextField" destination="eoP-uD-mqn" id="HRU-bQ-Ruo"/>
                         <outlet property="startButton" destination="otk-8S-Apk" id="FUF-cF-Bu0"/>
                     </connections>
@@ -136,8 +137,11 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg@2x_thumb" translatesAutoresizingMaskIntoConstraints="NO" id="YTG-gj-xRs">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                             </imageView>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="caq-c2-eea" customClass="CharacterView" customModule="Doekoe" customModuleProvider="target">
-                                <rect key="frame" x="16" y="130" width="240" height="484"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="caq-c2-eea" customClass="CharacterView" customModule="Doekoe" customModuleProvider="target">
+                                <rect key="frame" x="20" y="152" width="260" height="406"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="260" id="OC6-kg-BVw"/>
+                                </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="nibName" value="Character"/>
                                 </userDefinedRuntimeAttributes>
@@ -193,7 +197,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dagelijks in &amp; uit" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MYO-Us-P6p">
-                                <rect key="frame" x="166.5" y="36" width="87" height="20"/>
+                                <rect key="frame" x="167" y="36" width="87" height="20"/>
                                 <fontDescription key="fontDescription" name="Dosis-Regular" family="Dosis" pointSize="14"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -214,6 +218,7 @@ Werken!</string>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="caq-c2-eea" firstAttribute="top" secondItem="lH3-T1-f2D" secondAttribute="bottom" constant="16" id="0Mx-Cm-mDA"/>
                             <constraint firstItem="TvG-j4-49a" firstAttribute="leading" secondItem="lH3-T1-f2D" secondAttribute="trailing" constant="6" id="5Md-6c-PFl"/>
                             <constraint firstItem="1RW-IG-mgq" firstAttribute="centerY" secondItem="A7S-yK-Pgz" secondAttribute="centerY" id="6kw-ey-lT2"/>
                             <constraint firstItem="eP0-AQ-Mdt" firstAttribute="leading" secondItem="KWg-U1-wmd" secondAttribute="leading" constant="157" id="9AR-Mh-SeB"/>
@@ -233,7 +238,7 @@ Werken!</string>
                             <constraint firstItem="YTG-gj-xRs" firstAttribute="trailing" secondItem="KWg-U1-wmd" secondAttribute="trailing" id="Onu-JT-K4t"/>
                             <constraint firstItem="A7S-yK-Pgz" firstAttribute="width" secondItem="TvG-j4-49a" secondAttribute="width" id="RJT-6u-pgi"/>
                             <constraint firstItem="KWg-U1-wmd" firstAttribute="trailing" secondItem="eP0-AQ-Mdt" secondAttribute="trailing" constant="16" id="VNR-qJ-DIJ"/>
-                            <constraint firstItem="caq-c2-eea" firstAttribute="leading" secondItem="KWg-U1-wmd" secondAttribute="leading" constant="16" id="ViK-sq-hph"/>
+                            <constraint firstItem="caq-c2-eea" firstAttribute="leading" secondItem="KWg-U1-wmd" secondAttribute="leading" constant="20" id="ViK-sq-hph"/>
                             <constraint firstItem="Puu-iQ-SNq" firstAttribute="width" secondItem="lH3-T1-f2D" secondAttribute="width" id="WAn-5E-b52"/>
                             <constraint firstItem="lH3-T1-f2D" firstAttribute="leading" secondItem="KWg-U1-wmd" secondAttribute="leading" constant="8" id="dc0-wq-FKx"/>
                             <constraint firstItem="YTG-gj-xRs" firstAttribute="leading" secondItem="KWg-U1-wmd" secondAttribute="leading" id="dcZ-ay-Ldr"/>
@@ -241,6 +246,7 @@ Werken!</string>
                             <constraint firstItem="EYt-Yh-Vjd" firstAttribute="width" secondItem="lH3-T1-f2D" secondAttribute="width" id="hyL-rF-q9e"/>
                             <constraint firstItem="A7S-yK-Pgz" firstAttribute="centerY" secondItem="TvG-j4-49a" secondAttribute="centerY" id="iry-PK-tr0"/>
                             <constraint firstItem="TvG-j4-49a" firstAttribute="top" secondItem="MYO-Us-P6p" secondAttribute="bottom" constant="8" id="lD3-ka-zTq"/>
+                            <constraint firstItem="KWg-U1-wmd" firstAttribute="bottom" secondItem="caq-c2-eea" secondAttribute="bottom" constant="60" id="nZB-Zo-0FV"/>
                             <constraint firstAttribute="bottom" secondItem="YTG-gj-xRs" secondAttribute="bottom" id="rn2-EC-4MP"/>
                             <constraint firstItem="lH3-T1-f2D" firstAttribute="top" secondItem="KWg-U1-wmd" secondAttribute="top" constant="16" id="tQf-w8-RWy"/>
                             <constraint firstItem="Puu-iQ-SNq" firstAttribute="centerX" secondItem="lH3-T1-f2D" secondAttribute="centerX" id="wCN-0H-23n"/>
@@ -252,6 +258,7 @@ Werken!</string>
                         <color key="badgeColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBarItem>
                     <connections>
+                        <outlet property="characterView" destination="caq-c2-eea" id="aae-Bv-47A"/>
                         <outlet property="earningsLabel" destination="A7S-yK-Pgz" id="Am7-kq-Maj"/>
                         <outlet property="moneyLabel" destination="Puu-iQ-SNq" id="KjO-fB-DVS"/>
                         <outlet property="spendingsLabel" destination="EkS-DI-RL3" id="AkK-6f-Q0K"/>
