@@ -20,6 +20,7 @@ class DashboardViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         characterView.initializeCharacterView(withCharacter: CharacterService.shared().getCharacter()!)
+        loadCharacterValues()
     }
 
     override func didReceiveMemoryWarning() {
@@ -33,6 +34,12 @@ class DashboardViewController: UIViewController {
         DispatchQueue.main.asyncAfter(deadline: .now() + 10) {
             self.textBubbleLabel.isHidden = true
         }
+    }
+    
+    func loadCharacterValues() {
+        spendingsLabel.text = "→ € " + (CharacterService.shared().getCharacter()?.costs?.description)!
+        moneyLabel.text = "€ " + (CharacterService.shared().getCharacter()?.money?.description)!
+        earningsLabel.text = "← € " + (CharacterService.shared().getCharacter()?.earnings?.description)!
     }
 
 }

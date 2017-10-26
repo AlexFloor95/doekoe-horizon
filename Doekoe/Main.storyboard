@@ -180,7 +180,7 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Dosis-SemiBold" family="Dosis" pointSize="16"/>
                                 <state key="normal" backgroundImage="btn_ga_werken">
-                                    <string key="title">   Ga
+                                    <string key="title">    Ga
 Werken!</string>
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -210,22 +210,22 @@ Werken!</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dagelijks in &amp; uit" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MYO-Us-P6p">
-                                <rect key="frame" x="167" y="36" width="87" height="20"/>
+                                <rect key="frame" x="166.5" y="36" width="87" height="20"/>
                                 <fontDescription key="fontDescription" name="Dosis-Regular" family="Dosis" pointSize="14"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gezondheid_bar" translatesAutoresizingMaskIntoConstraints="NO" id="7XY-9G-ueL">
-                                <rect key="frame" x="216" y="431" width="127" height="32"/>
+                                <rect key="frame" x="216" y="431.5" width="127" height="32"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gezondheid" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BJB-ng-usK">
-                                <rect key="frame" x="268" y="406" width="75" height="21"/>
+                                <rect key="frame" x="268" y="407" width="75" height="20.5"/>
                                 <fontDescription key="fontDescription" name="Dosis-SemiBold" family="Dosis" pointSize="16"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swag" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OWt-dx-MLM">
-                                <rect key="frame" x="309" y="467" width="34" height="21"/>
+                                <rect key="frame" x="309" y="467.5" width="34" height="20.5"/>
                                 <fontDescription key="fontDescription" name="Dosis-SemiBold" family="Dosis" pointSize="16"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
