@@ -11,18 +11,15 @@ import UIKit
 
 class Cosmetics {
     // Hair
-    var hairCosmetics : [UIImage]?
+    static var hairCosmetics : [UIImage]?
     // Head
-    var headCosmetics : [UIImage]?
+    static var headCosmetics : [UIImage]?
     // Shirt
-    var shirtCosmetics : [UIImage]?
+    static var shirtCosmetics : [UIImage]?
     // Trousers
-    var trouserCosmetics : [UIImage]?
+    static var trouserCosmetics : [UIImage]?
     
-    init() {
-        self.hairCosmetics = [];
-        headCosmetics = [];
-        shirtCosmetics = [];
-        trouserCosmetics = [];
+    func loadCosmetics() {
+        // TODO: load UIImages from assets and put in arrays
     }
 }
