@@ -22,6 +22,8 @@
 		5E6776E41FA1D3BC0014A708 /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6776E31FA1D3BC0014A708 /* CharacterView.swift */; };
 		5E6776E61FA1D4FC0014A708 /* Cosmetics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6776E51FA1D4FC0014A708 /* Cosmetics.swift */; };
 		5E6776EC1FA1DE110014A708 /* XibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6776EB1FA1DE110014A708 /* XibView.swift */; };
+		5E8DEE0D1FA20CAD00027504 /* LevelsIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8DEE0C1FA20CAD00027504 /* LevelsIndicatorView.swift */; };
+		5E8DEE0F1FA20CC500027504 /* LevelsIndicator.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E8DEE0E1FA20CC500027504 /* LevelsIndicator.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		5E6776E31FA1D3BC0014A708 /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
 		5E6776E51FA1D4FC0014A708 /* Cosmetics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cosmetics.swift; sourceTree = "<group>"; };
 		5E6776EB1FA1DE110014A708 /* XibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibView.swift; sourceTree = "<group>"; };
+		5E8DEE0C1FA20CAD00027504 /* LevelsIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsIndicatorView.swift; sourceTree = "<group>"; };
+		5E8DEE0E1FA20CC500027504 /* LevelsIndicator.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LevelsIndicator.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 		5E4585A71FA1F49200398B71 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				5E6776EB1FA1DE110014A708 /* XibView.swift */,
 				5E4585A81FA1F4AD00398B71 /* Enumerations.swift */,
 			);
 			name = Helpers;
@@ -67,6 +72,8 @@
 			isa = PBXGroup;
 			children = (
 				5E4585AB1FA1F77400398B71 /* DashboardViewController.swift */,
+				5E8DEE0C1FA20CAD00027504 /* LevelsIndicatorView.swift */,
+				5E8DEE0E1FA20CC500027504 /* LevelsIndicator.xib */,
 			);
 			path = Dashboard;
 			sourceTree = "<group>";
@@ -128,7 +135,6 @@
 				5E6776E11FA1D3230014A708 /* Character.xib */,
 				5E6776E31FA1D3BC0014A708 /* CharacterView.swift */,
 				5E6776E51FA1D4FC0014A708 /* Cosmetics.swift */,
-				5E6776EB1FA1DE110014A708 /* XibView.swift */,
 				5E4585A51FA1F39300398B71 /* Character.swift */,
 			);
 			path = Character;
@@ -209,6 +215,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E8DEE0F1FA20CC500027504 /* LevelsIndicator.xib in Resources */,
 				5E6776D31FA1CEB00014A708 /* Assets.xcassets in Resources */,
 				5E4585A01FA1E34F00398B71 /* Main.storyboard in Resources */,
 				5E45859E1FA1E32900398B71 /* LaunchScreen.storyboard in Resources */,
@@ -226,6 +233,7 @@
 				5E6776E61FA1D4FC0014A708 /* Cosmetics.swift in Sources */,
 				5E4585A41FA1E6E800398B71 /* QuizViewController.swift in Sources */,
 				5E4585A91FA1F4AD00398B71 /* Enumerations.swift in Sources */,
+				5E8DEE0D1FA20CAD00027504 /* LevelsIndicatorView.swift in Sources */,
 				5E6776E41FA1D3BC0014A708 /* CharacterView.swift in Sources */,
 				5E4585A21FA1E6BA00398B71 /* ShopViewController.swift in Sources */,
 				5E6776CE1FA1CEB00014A708 /* OnboardingViewController.swift in Sources */,

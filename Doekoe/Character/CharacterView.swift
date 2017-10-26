@@ -16,10 +16,10 @@ class CharacterView: XibView {
     
     func initializeCharacterView(withCharacter character : Character) {
         // Set the correct images according to selected cosmetics
-        HairImageView.image = Cosmetics.hairCosmetics[character.selected_hair]
-        HeadImageView.image = Cosmetics.headCosmetics[character.selected_head]
-        ShirtImageView.image = Cosmetics.shirtCosmetics[character.selected_shirt]
-        TrousersImageView.image = Cosmetics.trouserCosmetics[character.selected_pants]
+        HairImageView.image = Cosmetics.hairCosmetics![character.selected_hair!]
+        HeadImageView.image = Cosmetics.headCosmetics![character.selected_head!]
+        ShirtImageView.image = Cosmetics.shirtCosmetics![character.selected_shirt!]
+        TrousersImageView.image = Cosmetics.trouserCosmetics![character.selected_trousers!]
     }
     
 }

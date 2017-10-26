@@ -29,6 +29,7 @@ class Character {
     // customazation
     var name : String?
     var gender : Gender?
+    var age : Int?
     // cosmetics
     var selected_hair : Int?
     var selected_head : Int?
