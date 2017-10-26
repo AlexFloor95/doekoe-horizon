@@ -9,36 +9,46 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Onboarding View Controller-->
+        <!--Onboarding-->
         <scene sceneID="guO-WM-plx">
             <objects>
-                <viewController id="Otd-or-kak" customClass="OnboardingViewController" customModule="Doekoe" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Onboarding" id="Otd-or-kak" customClass="OnboardingViewController" customModule="Doekoe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6SY-r6-aJm">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a5D-Ad-3WS" customClass="CharacterView" customModule="Doekoe" customModuleProvider="target">
-                                <rect key="frame" x="16" y="244" width="343" height="403"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="nibName" value="Character"/>
-                                </userDefinedRuntimeAttributes>
-                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="otk-8S-Apk">
+                                <rect key="frame" x="0.0" y="612" width="375" height="30"/>
+                                <state key="normal" title="Start"/>
+                                <connections>
+                                    <segue destination="7Af-Zn-aMl" kind="show" id="9W0-AP-M8W"/>
+                                </connections>
+                            </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eoP-uD-mqn">
                                 <rect key="frame" x="16" y="20" width="343" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a5D-Ad-3WS" customClass="CharacterView" customModule="Doekoe" customModuleProvider="target">
+                                <rect key="frame" x="16" y="206" width="343" height="403"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="nibName" value="Character"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="yGp-5h-3M1" firstAttribute="trailing" secondItem="eoP-uD-mqn" secondAttribute="trailing" constant="16" id="9pN-7k-JWf"/>
+                            <constraint firstItem="otk-8S-Apk" firstAttribute="top" secondItem="a5D-Ad-3WS" secondAttribute="bottom" constant="8" id="GzV-Lq-4l2"/>
                             <constraint firstItem="eoP-uD-mqn" firstAttribute="leading" secondItem="yGp-5h-3M1" secondAttribute="leading" constant="16" id="JJk-b2-cG8"/>
                             <constraint firstItem="yGp-5h-3M1" firstAttribute="trailing" secondItem="a5D-Ad-3WS" secondAttribute="trailing" constant="16" id="Rle-X3-Jnv"/>
                             <constraint firstItem="eoP-uD-mqn" firstAttribute="top" secondItem="yGp-5h-3M1" secondAttribute="top" id="r8O-Qc-eJP"/>
-                            <constraint firstItem="yGp-5h-3M1" firstAttribute="bottom" secondItem="a5D-Ad-3WS" secondAttribute="bottom" constant="20" id="rAW-NQ-aNK"/>
+                            <constraint firstItem="otk-8S-Apk" firstAttribute="width" secondItem="6SY-r6-aJm" secondAttribute="width" id="trZ-Ev-PdK"/>
                             <constraint firstItem="a5D-Ad-3WS" firstAttribute="leading" secondItem="yGp-5h-3M1" secondAttribute="leading" constant="16" id="wBf-Cw-2Oc"/>
+                            <constraint firstItem="yGp-5h-3M1" firstAttribute="bottom" secondItem="otk-8S-Apk" secondAttribute="bottom" constant="25" id="wCH-TK-8TO"/>
+                            <constraint firstItem="otk-8S-Apk" firstAttribute="centerX" secondItem="yGp-5h-3M1" secondAttribute="centerX" id="xjj-JZ-kxn"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="yGp-5h-3M1"/>
                     </view>
@@ -47,20 +57,69 @@
             </objects>
             <point key="canvasLocation" x="21.600000000000001" y="106.59670164917542"/>
         </scene>
-        <!--View Controller-->
+        <!--Dashboard-->
         <scene sceneID="aTx-gl-rw4">
             <objects>
-                <viewController id="7Af-Zn-aMl" sceneMemberID="viewController">
+                <viewController title="Dashboard" id="7Af-Zn-aMl" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hqZ-jE-OnV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xNv-AL-rSM">
+                                <rect key="frame" x="157" y="36" width="60" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="Fzp-UW-dsc"/>
+                                </constraints>
+                                <state key="normal" title="Shop"/>
+                                <connections>
+                                    <segue destination="ypr-tr-3wV" kind="show" id="n0C-3O-8pe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SQK-d5-rDe">
+                                <rect key="frame" x="279" y="36" width="80" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="hQp-oJ-Ymt"/>
+                                </constraints>
+                                <state key="normal" title="Werken"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="SQK-d5-rDe" firstAttribute="top" secondItem="KWg-U1-wmd" secondAttribute="top" constant="16" id="2Ie-mV-17Q"/>
+                            <constraint firstItem="xNv-AL-rSM" firstAttribute="centerX" secondItem="KWg-U1-wmd" secondAttribute="centerX" id="A4G-wF-Ud3"/>
+                            <constraint firstItem="xNv-AL-rSM" firstAttribute="top" secondItem="KWg-U1-wmd" secondAttribute="top" constant="16" id="mDh-8J-r3h"/>
+                            <constraint firstItem="KWg-U1-wmd" firstAttribute="trailing" secondItem="SQK-d5-rDe" secondAttribute="trailing" constant="16" id="tg2-fH-LXt"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="KWg-U1-wmd"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="18T-2R-642" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="729" y="105"/>
+            <point key="canvasLocation" x="728.79999999999995" y="104.7976011994003"/>
+        </scene>
+        <!--Shop-->
+        <scene sceneID="nOQ-jE-nH4">
+            <objects>
+                <viewController title="Shop" id="ypr-tr-3wV" customClass="ShopViewController" customModule="Doekoe" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qnh-af-cUC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Shop" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZbP-f3-aCF">
+                                <rect key="frame" x="166" y="298" width="40" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="0HK-Gh-iUI"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DVm-1a-Rfd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1599" y="107"/>
         </scene>
     </scenes>
 </document>
