@@ -528,6 +528,9 @@ Werken!</string>
                         <outlet property="characterView" destination="XVO-MD-ivj" id="TUc-rR-iXx"/>
                         <outlet property="earningsLabel" destination="xV7-WC-O8D" id="b0e-fy-f6b"/>
                         <outlet property="moneyLabel" destination="DhB-l1-TkN" id="jFV-61-fwo"/>
+                        <outlet property="productCostPrefixLabel" destination="z64-l9-48c" id="wd3-Us-ELE"/>
+                        <outlet property="productPriceLabel" destination="Gz0-vF-LV0" id="rIF-EK-fv1"/>
+                        <outlet property="productTitleLabel" destination="gHj-qh-7IZ" id="2Yc-ps-A78"/>
                         <outlet property="purchaseButton" destination="IMB-v8-QM0" id="Fzo-rG-IFy"/>
                         <outlet property="spendingsLabel" destination="b85-6u-nEt" id="nnT-bo-B6C"/>
                         <outlet property="swipeLeftButton" destination="p12-26-xen" id="2IP-9l-rA6"/>

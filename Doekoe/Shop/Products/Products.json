@@ -1,0 +1,38 @@
+ [
+  {
+  "product": {
+  "title": "Sneakers",
+  "cost": {
+  "one-off":200,
+  "returning":0
+  },
+  "cosmeticsId": 1,
+  "healthEffect": 5,
+  "swagEffect": 2
+  }
+  },
+  {
+  "product": {
+  "title": "Mobiel",
+  "cost": {
+  "one-off":100,
+  "returning":30
+  },
+  "cosmeticsId": 2,
+  "healthEffect": 0,
+  "swagEffect": 5
+  }
+  },
+  {
+  "product": {
+  "title": "Scooter",
+  "cost": {
+  "one-off":1000,
+  "returning":60
+  },
+  "cosmeticsId": 3,
+  "healthEffect": 0,
+  "swagEffect": 50
+  }
+  }
+  ]

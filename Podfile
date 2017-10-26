@@ -6,5 +6,5 @@ target 'Doekoe' do
   use_frameworks!
 
   # Pods for Doekoe
-
+  pod 'SwiftyJSON'
 end

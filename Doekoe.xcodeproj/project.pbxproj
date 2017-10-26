@@ -31,6 +31,9 @@
 		5E8D8C2B1FA24C02009869DE /* Dosis-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5E8D8C261FA24BF9009869DE /* Dosis-Medium.otf */; };
 		5E8D8C2C1FA24C02009869DE /* Dosis-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5E8D8C221FA24BF8009869DE /* Dosis-Regular.otf */; };
 		5E8D8C2D1FA24C02009869DE /* Dosis-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5E8D8C231FA24BF8009869DE /* Dosis-SemiBold.otf */; };
+		5E8D8C2F1FA24D61009869DE /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8D8C2E1FA24D61009869DE /* Product.swift */; };
+		5E8D8C321FA24EC5009869DE /* Products.json in Resources */ = {isa = PBXBuildFile; fileRef = 5E8D8C311FA24EC5009869DE /* Products.json */; };
+		5E8D8C341FA2513B009869DE /* ProductService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8D8C331FA2513B009869DE /* ProductService.swift */; };
 		5E8DEE111FA210CE00027504 /* TextBubble.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E8DEE101FA210CE00027504 /* TextBubble.xib */; };
 		5E8DEE131FA210EE00027504 /* TextBubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8DEE121FA210EE00027504 /* TextBubbleView.swift */; };
 /* End PBXBuildFile section */
@@ -62,6 +65,9 @@
 		5E8D8C241FA24BF8009869DE /* Dosis-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dosis-ExtraBold.otf"; sourceTree = "<group>"; };
 		5E8D8C251FA24BF9009869DE /* Dosis-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dosis-Light.otf"; sourceTree = "<group>"; };
 		5E8D8C261FA24BF9009869DE /* Dosis-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dosis-Medium.otf"; sourceTree = "<group>"; };
+		5E8D8C2E1FA24D61009869DE /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		5E8D8C311FA24EC5009869DE /* Products.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Products.json; sourceTree = "<group>"; };
+		5E8D8C331FA2513B009869DE /* ProductService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductService.swift; sourceTree = "<group>"; };
 		5E8DEE101FA210CE00027504 /* TextBubble.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextBubble.xib; sourceTree = "<group>"; };
 		5E8DEE121FA210EE00027504 /* TextBubbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBubbleView.swift; sourceTree = "<group>"; };
 		7F8E7EFB61FD5E64F9F036EC /* Pods-Doekoe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Doekoe.release.xcconfig"; path = "Pods/Target Support Files/Pods-Doekoe/Pods-Doekoe.release.xcconfig"; sourceTree = "<group>"; };
@@ -176,6 +182,7 @@
 		5E6776E81FA1D6730014A708 /* Shop */ = {
 			isa = PBXGroup;
 			children = (
+				5E8D8C301FA24E60009869DE /* Products */,
 				5E4585A11FA1E6BA00398B71 /* ShopViewController.swift */,
 			);
 			path = Shop;
@@ -193,6 +200,16 @@
 				5E8D8C231FA24BF8009869DE /* Dosis-SemiBold.otf */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		5E8D8C301FA24E60009869DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E8D8C2E1FA24D61009869DE /* Product.swift */,
+				5E8D8C311FA24EC5009869DE /* Products.json */,
+				5E8D8C331FA2513B009869DE /* ProductService.swift */,
+			);
+			path = Products;
 			sourceTree = "<group>";
 		};
 		DF78B7EAB15A65DCF7E8F3B6 /* Pods */ = {
@@ -282,6 +299,7 @@
 				5E45859E1FA1E32900398B71 /* LaunchScreen.storyboard in Resources */,
 				5E8D8C2D1FA24C02009869DE /* Dosis-SemiBold.otf in Resources */,
 				5E8DEE111FA210CE00027504 /* TextBubble.xib in Resources */,
+				5E8D8C321FA24EC5009869DE /* Products.json in Resources */,
 				5E8D8C2B1FA24C02009869DE /* Dosis-Medium.otf in Resources */,
 				5E8D8C281FA24C02009869DE /* Dosis-ExtraBold.otf in Resources */,
 				5E8D8C291FA24C02009869DE /* Dosis-ExtraLight.otf in Resources */,
@@ -332,11 +350,11 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Doekoe/Pods-Doekoe-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/EasyTipView/EasyTipView.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EasyTipView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -363,6 +381,8 @@
 				5E4585AC1FA1F77400398B71 /* DashboardViewController.swift in Sources */,
 				5E6776CC1FA1CEB00014A708 /* AppDelegate.swift in Sources */,
 				5E4585A61FA1F39300398B71 /* Character.swift in Sources */,
+				5E8D8C2F1FA24D61009869DE /* Product.swift in Sources */,
+				5E8D8C341FA2513B009869DE /* ProductService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

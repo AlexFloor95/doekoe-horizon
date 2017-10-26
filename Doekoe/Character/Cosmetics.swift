@@ -17,5 +17,8 @@ class Cosmetics {
         // TODO: load UIImages from assets and put in arrays
         characterCosmetics = [UIImage]()
         characterCosmetics?.append(UIImage(named:"character")!)
+        characterCosmetics?.append(UIImage(named:"character")!)
+        characterCosmetics?.append(UIImage(named:"character")!)
+        characterCosmetics?.append(UIImage(named:"character")!)
     }
 }
