@@ -25,13 +25,14 @@ class ShopViewController: UIViewController {
     @IBOutlet weak var characterView: CharacterView!
     
     let products : [Product]? = ProductService.shared().getProducts()
+    var currentProduct = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
         purchaseButton.layer.cornerRadius = 3
     characterView.initializeCharacterView(withCharacter: CharacterService.shared().getCharacter()!)
         loadCharacterValues()
-        loadProduct(product: products![0])
+        loadProduct(product: products![currentProduct])
     }
 
     override func didReceiveMemoryWarning() {
@@ -50,5 +51,25 @@ class ShopViewController: UIViewController {
         productPriceLabel.text = "€ " + product.costs!.description
         productCostPrefixLabel.text = "Kosten"
     }
-
+    
+    @IBAction func productCycleLeft(_ sender: Any) {
+        if currentProduct != 0 {
+            currentProduct -= 1
+        }
+        else {
+            currentProduct = (products?.count)! - 1
+        }
+        loadProduct(product: products![currentProduct])
+    }
+    
+    @IBAction func productCycleRight(_ sender: Any) {
+        if currentProduct != ((products?.count)! - 1) {
+            currentProduct += 1
+        }
+        else {
+            currentProduct = 0
+        }
+        loadProduct(product: products![currentProduct])
+    }
+    
 }

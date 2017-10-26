@@ -424,6 +424,9 @@ Werken!</string>
                                     <constraint firstAttribute="width" constant="80" id="h18-vy-AX8"/>
                                 </constraints>
                                 <state key="normal" backgroundImage="ic_keyboard_arrow_right_white"/>
+                                <connections>
+                                    <action selector="productCycleRight:" destination="Juh-pk-7lS" eventType="touchUpInside" id="s30-fj-J3L"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p12-26-xen">
                                 <rect key="frame" x="8" y="285" width="80" height="80"/>
@@ -433,6 +436,9 @@ Werken!</string>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <state key="normal" backgroundImage="ic_keyboard_arrow_left_white"/>
+                                <connections>
+                                    <action selector="productCycleLeft:" destination="Juh-pk-7lS" eventType="touchUpInside" id="GMU-WB-5vQ"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="btn_dagelijks_in" translatesAutoresizingMaskIntoConstraints="NO" id="oc2-dD-qI6">
                                 <rect key="frame" x="16" y="498" width="309" height="88"/>
