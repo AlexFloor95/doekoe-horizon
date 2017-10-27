@@ -60,4 +60,8 @@ class Character {
             payedFine = true
         }
     }
+    
+    func worked(for money : Int) {
+        self.money! += money
+    }
 }
