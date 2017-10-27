@@ -50,6 +50,7 @@ class ShopViewController: UIViewController {
         productTitleLabel.text = product.title
         productPriceLabel.text = "€ " + product.costs!.description
         productCostPrefixLabel.text = "Kosten"
+        characterView.setCosmetics(withProduct: product)
     }
     
     @IBAction func productCycleLeft(_ sender: Any) {

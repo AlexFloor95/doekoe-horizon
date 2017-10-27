@@ -19,6 +19,6 @@ class Cosmetics {
         characterCosmetics?.append(UIImage(named:"character")!)
         characterCosmetics?.append(UIImage(named:"character")!)
         characterCosmetics?.append(UIImage(named:"character")!)
-        characterCosmetics?.append(UIImage(named:"character")!)
+        characterCosmetics?.append(UIImage(named:"scooter")!)
     }
 }

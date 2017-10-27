@@ -17,4 +17,13 @@ class CharacterView: XibView {
         characterImageView.image = Cosmetics.characterCosmetics![character.selected_cosmetics!]
     }
     
+    func setCosmetics(withProduct product: Product) {
+        // Set the correct images according to selected cosmetics
+        UIView.transition(with: self.characterImageView,
+                          duration:0.5,
+                          options: .transitionCrossDissolve,
+                          animations: { self.characterImageView.image = Cosmetics.characterCosmetics![product.cosmeticsId!] },
+                          completion: nil)
+    }
+    
 }

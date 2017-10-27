@@ -110,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				5E4585AE1FA1FCDF00398B71 /* CharacterService.swift */,
+				5E8D8C331FA2513B009869DE /* ProductService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -207,7 +208,6 @@
 			children = (
 				5E8D8C2E1FA24D61009869DE /* Product.swift */,
 				5E8D8C311FA24EC5009869DE /* Products.json */,
-				5E8D8C331FA2513B009869DE /* ProductService.swift */,
 			);
 			path = Products;
 			sourceTree = "<group>";
