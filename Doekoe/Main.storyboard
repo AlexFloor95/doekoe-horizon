@@ -213,7 +213,7 @@ Werken!</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dagelijks in &amp; uit" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MYO-Us-P6p">
-                                <rect key="frame" x="159" y="36" width="103.5" height="20"/>
+                                <rect key="frame" x="158.5" y="36" width="103.5" height="20"/>
                                 <fontDescription key="fontDescription" name="Dosis-Regular" family="Dosis" pointSize="14"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -413,7 +413,7 @@ Werken!</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dagelijks in &amp; uit" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JuW-Q4-4zd">
-                                <rect key="frame" x="159" y="36" width="103.5" height="20"/>
+                                <rect key="frame" x="158.5" y="36" width="103.5" height="20"/>
                                 <fontDescription key="fontDescription" name="Dosis-Regular" family="Dosis" pointSize="14"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -554,7 +554,7 @@ Werken!</string>
         <!--Fine View Controller-->
         <scene sceneID="SKd-Rg-Ih5">
             <objects>
-                <viewController id="37o-FK-HDD" customClass="FineViewController" sceneMemberID="viewController">
+                <viewController id="37o-FK-HDD" customClass="FineViewController" customModule="Doekoe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Hwx-y5-f41">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -581,83 +581,84 @@ Werken!</string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PL9-aB-1iQ">
-                                <rect key="frame" x="164" y="535" width="46" height="30"/>
-                                <color key="backgroundColor" red="1" green="0.64705882349999999" blue="0.078431372550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Dosis-SemiBold" family="Dosis" pointSize="22"/>
-                                <state key="normal" title="denial_answer">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5C4-k4-wHd">
-                                <rect key="frame" x="174" y="545" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.64705882349999999" blue="0.078431372550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Dosis-SemiBold" family="Dosis" pointSize="22"/>
-                                <state key="normal" title="denial_answer">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gezondheid_bar" translatesAutoresizingMaskIntoConstraints="NO" id="XoT-ZP-fVN">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="life_event_bg" translatesAutoresizingMaskIntoConstraints="NO" id="XoT-ZP-fVN">
                                 <rect key="frame" x="16" y="124" width="343" height="479"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IVw-3R-wqK">
-                                <rect key="frame" x="32" y="507" width="311" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IVw-3R-wqK">
+                                <rect key="frame" x="32.5" y="503" width="311" height="35"/>
                                 <color key="backgroundColor" red="1" green="0.64705882349999999" blue="0.078431372550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="BpI-LK-WeD"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Dosis-SemiBold" family="Dosis" pointSize="17"/>
                                 <state key="normal" title="accept_answer">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="acceptFIne:" destination="37o-FK-HDD" eventType="touchUpInside" id="9HN-8S-8dm"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rBi-IM-68n">
-                                <rect key="frame" x="31" y="545" width="312" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rBi-IM-68n">
+                                <rect key="frame" x="32" y="543" width="311" height="35"/>
                                 <color key="backgroundColor" red="1" green="0.64705882349999999" blue="0.078431372550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="tee-HS-IEp"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Dosis-SemiBold" family="Dosis" pointSize="17"/>
                                 <state key="normal" title="denial_answer">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="denyFine:" destination="37o-FK-HDD" eventType="touchUpInside" id="CB5-pl-PgV"/>
+                                </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="fine description" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Fl-eF-iR4">
-                                <rect key="frame" x="32" y="212" width="311" height="210"/>
-                                <fontDescription key="fontDescription" name="Dosis-Regular" family="Dosis" pointSize="18"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="fine description" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Fl-eF-iR4">
+                                <rect key="frame" x="32" y="167.5" width="311" height="23"/>
+                                <fontDescription key="fontDescription" name="Dosis-Regular" family="Dosis" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Totale kosten" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1U4-kT-PN1">
-                                <rect key="frame" x="32" y="430" width="119" height="21"/>
-                                <fontDescription key="fontDescription" name="Dosis-Regular" family="Dosis" pointSize="20"/>
+                                <rect key="frame" x="32" y="198.5" width="142.5" height="25.5"/>
+                                <fontDescription key="fontDescription" name="Dosis-Regular" family="Dosis" pointSize="24"/>
                                 <color key="textColor" red="0.74509803919999995" green="0.1176470588" blue="0.1764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="$ 90,00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OvJ-0c-sVq">
-                                <rect key="frame" x="32" y="468" width="80.5" height="21"/>
-                                <fontDescription key="fontDescription" name="Dosis-ExtraBold" family="Dosis" pointSize="24"/>
+                                <rect key="frame" x="32" y="228" width="107" height="30.5"/>
+                                <fontDescription key="fontDescription" name="Dosis-ExtraBold" family="Dosis" pointSize="32"/>
                                 <color key="textColor" red="0.74509803919999995" green="0.1176470588" blue="0.1764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="fine title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NXp-du-eTt">
-                                <rect key="frame" x="32" y="183" width="311" height="21"/>
-                                <fontDescription key="fontDescription" name="Dosis-ExtraBold" family="Dosis" pointSize="28"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="fine title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NXp-du-eTt">
+                                <rect key="frame" x="32" y="140" width="311" height="35.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="zpZ-LW-h2C"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Dosis-ExtraBold" family="Dosis" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="1U4-kT-PN1" firstAttribute="top" secondItem="3Fl-eF-iR4" secondAttribute="bottom" constant="8" id="4vP-Xp-kln"/>
+                            <constraint firstItem="1U4-kT-PN1" firstAttribute="top" secondItem="3Fl-eF-iR4" secondAttribute="bottom" priority="800" constant="8" id="4vP-Xp-kln"/>
                             <constraint firstItem="NXp-du-eTt" firstAttribute="trailing" secondItem="XoT-ZP-fVN" secondAttribute="trailing" constant="-16" id="6iS-C9-2ob"/>
+                            <constraint firstItem="IVw-3R-wqK" firstAttribute="bottom" secondItem="rBi-IM-68n" secondAttribute="bottom" constant="-40" id="7l4-nc-uus"/>
+                            <constraint firstItem="rBi-IM-68n" firstAttribute="bottom" secondItem="XoT-ZP-fVN" secondAttribute="bottom" constant="-25" id="9ki-vb-1oB"/>
                             <constraint firstItem="XoT-ZP-fVN" firstAttribute="top" secondItem="vHf-Ti-Nmy" secondAttribute="bottom" constant="8" id="AQ1-fh-ytC"/>
                             <constraint firstItem="c9A-Be-CdA" firstAttribute="bottom" secondItem="XoT-ZP-fVN" secondAttribute="bottom" constant="64" id="AVQ-CD-rv4"/>
-                            <constraint firstItem="IVw-3R-wqK" firstAttribute="trailing" secondItem="XoT-ZP-fVN" secondAttribute="trailing" constant="-16" id="BCy-oe-F0l"/>
                             <constraint firstItem="ebH-2u-WWB" firstAttribute="leading" secondItem="Hwx-y5-f41" secondAttribute="leading" id="F3M-nD-ogR"/>
-                            <constraint firstItem="rBi-IM-68n" firstAttribute="width" secondItem="IVw-3R-wqK" secondAttribute="width" id="KgJ-z5-83K"/>
+                            <constraint firstItem="IVw-3R-wqK" firstAttribute="width" secondItem="rBi-IM-68n" secondAttribute="width" id="Hdb-id-emd"/>
+                            <constraint firstItem="rBi-IM-68n" firstAttribute="leading" secondItem="c9A-Be-CdA" secondAttribute="leading" constant="32" id="HyW-ge-Qza"/>
+                            <constraint firstItem="c9A-Be-CdA" firstAttribute="trailing" secondItem="rBi-IM-68n" secondAttribute="trailing" constant="32" id="Lsy-Dr-2W3"/>
+                            <constraint firstItem="NXp-du-eTt" firstAttribute="top" secondItem="XoT-ZP-fVN" secondAttribute="top" constant="16" id="QNO-3Y-FMi"/>
                             <constraint firstItem="fvU-M2-3ZO" firstAttribute="centerY" secondItem="zwX-lg-hbU" secondAttribute="centerY" id="Rfg-Bn-8AE"/>
                             <constraint firstItem="OvJ-0c-sVq" firstAttribute="top" secondItem="1U4-kT-PN1" secondAttribute="bottom" constant="4" id="W3K-gY-NU1"/>
                             <constraint firstItem="IVw-3R-wqK" firstAttribute="top" secondItem="OvJ-0c-sVq" secondAttribute="bottom" constant="16" id="W3n-pb-U5H"/>
                             <constraint firstItem="NXp-du-eTt" firstAttribute="leading" secondItem="XoT-ZP-fVN" secondAttribute="leading" constant="16" id="Yeu-Wi-0GU"/>
                             <constraint firstItem="vHf-Ti-Nmy" firstAttribute="leading" secondItem="c9A-Be-CdA" secondAttribute="leading" constant="16" id="YuZ-x9-s9d"/>
                             <constraint firstItem="3Fl-eF-iR4" firstAttribute="trailing" secondItem="XoT-ZP-fVN" secondAttribute="trailing" constant="-16" id="Zm1-zp-vTt"/>
-                            <constraint firstItem="IVw-3R-wqK" firstAttribute="leading" secondItem="XoT-ZP-fVN" secondAttribute="leading" constant="16" id="b2v-nS-Ys4"/>
                             <constraint firstItem="rBi-IM-68n" firstAttribute="centerX" secondItem="IVw-3R-wqK" secondAttribute="centerX" id="ef2-i8-n90"/>
                             <constraint firstItem="OvJ-0c-sVq" firstAttribute="leading" secondItem="XoT-ZP-fVN" secondAttribute="leading" constant="16" id="gxy-Hf-D4o"/>
                             <constraint firstItem="1U4-kT-PN1" firstAttribute="leading" secondItem="XoT-ZP-fVN" secondAttribute="leading" constant="16" id="hG0-RA-SIP"/>
@@ -671,7 +672,6 @@ Werken!</string>
                             <constraint firstItem="vHf-Ti-Nmy" firstAttribute="top" secondItem="c9A-Be-CdA" secondAttribute="top" constant="16" id="mxq-2z-rQR"/>
                             <constraint firstItem="c9A-Be-CdA" firstAttribute="trailing" secondItem="XoT-ZP-fVN" secondAttribute="trailing" constant="16" id="qmo-R2-3Xw"/>
                             <constraint firstItem="XoT-ZP-fVN" firstAttribute="leading" secondItem="c9A-Be-CdA" secondAttribute="leading" constant="16" id="sj2-MJ-2H1"/>
-                            <constraint firstItem="PL9-aB-1iQ" firstAttribute="top" secondItem="IVw-3R-wqK" secondAttribute="bottom" constant="8" id="uEM-sp-NIg"/>
                             <constraint firstAttribute="bottom" secondItem="ebH-2u-WWB" secondAttribute="bottom" id="wSH-Uj-Cbq"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="c9A-Be-CdA"/>
@@ -682,6 +682,7 @@ Werken!</string>
                         <outlet property="denyButton" destination="rBi-IM-68n" id="ijQ-3X-l9B"/>
                         <outlet property="fineDescriptionLabel" destination="3Fl-eF-iR4" id="BpP-fP-HOQ"/>
                         <outlet property="fineTitleLabel" destination="NXp-du-eTt" id="vNe-yP-O4e"/>
+                        <outlet property="moneyLabel" destination="fvU-M2-3ZO" id="aCv-4C-qV4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TMU-n8-qsG" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -702,5 +703,6 @@ Werken!</string>
         <image name="icn_settings" width="22" height="22"/>
         <image name="icn_shop" width="28" height="25"/>
         <image name="icn_you@2x_thumb" width="66" height="68"/>
+        <image name="life_event_bg" width="354" height="589"/>
     </resources>
 </document>

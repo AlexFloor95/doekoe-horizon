@@ -19,6 +19,9 @@ class Character {
     private let INITIAL_COSMETICS = 0
     private let INITIAL_PRODUCTS = [Product]()
     
+    // temp variable to check if fine is payed (demo purpose)
+    var payedFine = false
+    
     var money : Int?
     var health : Int?
     var swagLevel : Int?
@@ -49,5 +52,12 @@ class Character {
         money! -= product.costs!
         ownedProducts?.append(product)
         selected_cosmetics = product.cosmeticsId
+    }
+    
+    func handleFine(fine : Fine, payed : Bool) {
+        if payed {
+            money! -= fine.costs!
+            payedFine = true
+        }
     }
 }
