@@ -24,6 +24,8 @@ class ShopViewController: UIViewController {
     
     @IBOutlet weak var characterView: CharacterView!
     
+    @IBOutlet weak var workButton: UIButton!
+    
     var products : [Product]? = ProductService.shared().getProducts()
     var currentProduct = 0
     
@@ -41,6 +43,10 @@ class ShopViewController: UIViewController {
     }
     
     func loadCharacterValues() {
+        if (CharacterService.shared().getCharacter()?.worked)! {
+            workButton.setImage(UIImage(named: "werktimer"), for: .normal)
+            workButton.isEnabled = false
+        }
         spendingsLabel.text = "→ € " + (CharacterService.shared().getCharacter()?.costs?.description)!
         moneyLabel.text = "€ " + (CharacterService.shared().getCharacter()?.money?.description)!
         earningsLabel.text = "← € " + (CharacterService.shared().getCharacter()?.earnings?.description)!

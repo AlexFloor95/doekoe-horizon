@@ -35,6 +35,8 @@ class Character {
     var selected_cosmetics : Int?
     // products
     var ownedProducts : [Product]?
+    // worked
+    var worked = false
     
     init() {
         // TODO: refactor
@@ -63,5 +65,6 @@ class Character {
     
     func worked(for money : Int) {
         self.money! += money
+        worked = true
     }
 }

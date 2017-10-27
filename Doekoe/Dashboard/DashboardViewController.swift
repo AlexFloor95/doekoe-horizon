@@ -15,6 +15,8 @@ class DashboardViewController: UIViewController {
     @IBOutlet weak var earningsLabel: UILabel!
     @IBOutlet weak var spendingsLabel: UILabel!
     
+    @IBOutlet weak var workButton: UIButton!
+    
     @IBOutlet weak var swagLevelImageView: UIImageView!
     
     @IBOutlet weak var characterView: CharacterView!
@@ -44,6 +46,10 @@ class DashboardViewController: UIViewController {
     }
     
     func loadCharacterValues() {
+        if (CharacterService.shared().getCharacter()?.worked)! {
+            workButton.setImage(UIImage(named: "werktimer"), for: .normal)
+            workButton.isEnabled = false
+        }
         spendingsLabel.text = "→ € " + (CharacterService.shared().getCharacter()?.costs?.description)!
         moneyLabel.text = "€ " + (CharacterService.shared().getCharacter()?.money?.description)!
         earningsLabel.text = "← € " + (CharacterService.shared().getCharacter()?.earnings?.description)!
