@@ -25,7 +25,7 @@ class FineViewController: UIViewController {
         super.viewDidLoad()
         fine.title = "Kak... boete"
         fine.description = "Je scooter is wel nice, maar hij loopt gewoon net ff iets te hard. Ze hebben 'm niet ingenomen, maar je moet wel een boete betalen."
-        fine.costs = 90
+        fine.costs = 20
         fine.acceptText = "Oké, oké ik betaal die gasten"
         fine.denyText = "Zoek het uit, ik betaal niet!"
         setupFine(withFine: fine)

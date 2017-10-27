@@ -57,7 +57,7 @@ class DashboardViewController: UIViewController {
             swagLevelImageView.image = UIImage(named:"swagbar_hoog")
         }
         if (CharacterService.shared().getCharacter()?.selected_cosmetics == 3 && !(CharacterService.shared().getCharacter()?.payedFine)!) {
-            DispatchQueue.main.asyncAfter(deadline: .now() + 8) {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 6) {
                 self.performSegue(withIdentifier: "fine_segue", sender: self)
             }
         }

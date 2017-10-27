@@ -10,7 +10,7 @@ import Foundation
 
 class Character {
     // initial settings
-    private let INITIAL_MONEY = 1000
+    private let INITIAL_MONEY = 790
     private let INITIAL_HEALTH = 100
     private let INITIAL_SWAG = 0
     private let INITIAL_EARNINGS = 50
@@ -64,7 +64,9 @@ class Character {
     }
     
     func worked(for money : Int) {
-        self.money! += money
-        worked = true
+        if !worked {
+            self.money! += money
+            worked = true
+        }
     }
 }

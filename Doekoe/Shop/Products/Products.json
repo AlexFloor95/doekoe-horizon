@@ -27,7 +27,7 @@
   "product": {
   "title": "Scooter",
   "cost": {
-  "one-off":1000,
+  "one-off":800,
   "returning":60
   },
   "cosmeticsId": 3,

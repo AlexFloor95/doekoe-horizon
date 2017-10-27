@@ -63,7 +63,7 @@ class ShopViewController: UIViewController {
         productPriceLabel.text = "€ " + product.costs!.description
         productCostPrefixLabel.text = "Kosten"
         characterView.setCosmetics(withProduct: product)
-        swagLabel.text = "Gezondheid: " + (product.healthEffect?.description)! + " Swag: " + (product.swagEffect?.description)!
+        swagLabel.text = "Gezondheid: " + (product.healthEffect?.description)! + " Swag: " + (product.swagEffect?.description)!                                                                                                                                                                                            
     }
     
     @IBAction func productCycleLeft(_ sender: Any) {
