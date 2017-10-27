@@ -36,6 +36,10 @@ class ShopViewController: UIViewController {
         loadCharacterValues()
         loadProduct(product: products![currentProduct])
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        loadCharacterValues()
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
