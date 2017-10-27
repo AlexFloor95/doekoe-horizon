@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3EF83AA09A7721F9786D9494 /* Pods_Doekoe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FEDCD06909C03C4B7F6A752 /* Pods_Doekoe.framework */; };
 		5E2F1A981FA316F300D11D65 /* FIne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2F1A971FA316F300D11D65 /* FIne.swift */; };
+		5E30CC751FA335D000E24B29 /* CustomTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E30CC741FA335D000E24B29 /* CustomTabViewController.swift */; };
 		5E45859E1FA1E32900398B71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E45859D1FA1E32900398B71 /* LaunchScreen.storyboard */; };
 		5E4585A01FA1E34F00398B71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E45859F1FA1E34F00398B71 /* Main.storyboard */; };
 		5E4585A21FA1E6BA00398B71 /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4585A11FA1E6BA00398B71 /* ShopViewController.swift */; };
@@ -42,6 +43,7 @@
 /* Begin PBXFileReference section */
 		2FEDCD06909C03C4B7F6A752 /* Pods_Doekoe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Doekoe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E2F1A971FA316F300D11D65 /* FIne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIne.swift; sourceTree = "<group>"; };
+		5E30CC741FA335D000E24B29 /* CustomTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabViewController.swift; sourceTree = "<group>"; };
 		5E45859D1FA1E32900398B71 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E45859F1FA1E34F00398B71 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		5E4585A11FA1E6BA00398B71 /* ShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 				5E6776D71FA1CEB00014A708 /* Info.plist */,
 				5E45859D1FA1E32900398B71 /* LaunchScreen.storyboard */,
 				5E45859F1FA1E34F00398B71 /* Main.storyboard */,
+				5E30CC741FA335D000E24B29 /* CustomTabViewController.swift */,
 			);
 			path = Doekoe;
 			sourceTree = "<group>";
@@ -383,6 +386,7 @@
 				5E8DEE131FA210EE00027504 /* TextBubbleView.swift in Sources */,
 				5E6776EC1FA1DE110014A708 /* XibView.swift in Sources */,
 				5E4585AC1FA1F77400398B71 /* DashboardViewController.swift in Sources */,
+				5E30CC751FA335D000E24B29 /* CustomTabViewController.swift in Sources */,
 				5E6776CC1FA1CEB00014A708 /* AppDelegate.swift in Sources */,
 				5E4585A61FA1F39300398B71 /* Character.swift in Sources */,
 				5E8D8C2F1FA24D61009869DE /* Product.swift in Sources */,
