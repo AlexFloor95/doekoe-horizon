@@ -16,9 +16,9 @@ class Cosmetics {
     static func loadCosmetics() {
         // TODO: load UIImages from assets and put in arrays
         characterCosmetics = [UIImage]()
-        characterCosmetics?.append(UIImage(named:"character")!)
-        characterCosmetics?.append(UIImage(named:"character")!)
-        characterCosmetics?.append(UIImage(named:"character")!)
-        characterCosmetics?.append(UIImage(named:"scooter")!)
+        characterCosmetics?.append(UIImage(named:"character_default")!)
+        characterCosmetics?.append(UIImage(named:"character_shoes")!)
+        characterCosmetics?.append(UIImage(named:"character_phone")!)
+        characterCosmetics?.append(UIImage(named:"character_scooter")!)
     }
 }
