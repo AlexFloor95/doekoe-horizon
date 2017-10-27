@@ -46,7 +46,7 @@ class DashboardViewController: UIViewController {
         moneyLabel.text = "€ " + (CharacterService.shared().getCharacter()?.money?.description)!
         earningsLabel.text = "← € " + (CharacterService.shared().getCharacter()?.earnings?.description)!
         print("selected cosmetic: " + (CharacterService.shared().getCharacter()?.selected_cosmetics!.description)!)
-        if (CharacterService.shared().getCharacter()?.selected_cosmetics == 3 && !CharacterService.shared().getCharacter().payedFine) {
+        if (CharacterService.shared().getCharacter()?.selected_cosmetics == 3 && !(CharacterService.shared().getCharacter()?.payedFine)!) {
             DispatchQueue.main.asyncAfter(deadline: .now() + 8) {
                 self.performSegue(withIdentifier: "fine_segue", sender: self)
             }
