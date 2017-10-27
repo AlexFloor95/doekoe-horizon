@@ -26,6 +26,8 @@ class ShopViewController: UIViewController {
     
     @IBOutlet weak var workButton: UIButton!
     
+    @IBOutlet weak var swagLabel: UILabel!
+    
     var products : [Product]? = ProductService.shared().getProducts()
     var currentProduct = 0
     
@@ -61,6 +63,7 @@ class ShopViewController: UIViewController {
         productPriceLabel.text = "€ " + product.costs!.description
         productCostPrefixLabel.text = "Kosten"
         characterView.setCosmetics(withProduct: product)
+        swagLabel.text = "Gezondheid: " + (product.healthEffect?.description)! + " Swag: " + (product.swagEffect?.description)!
     }
     
     @IBAction func productCycleLeft(_ sender: Any) {

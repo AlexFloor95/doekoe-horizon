@@ -133,7 +133,7 @@ Werken!</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dagelijks in &amp; uit" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MYO-Us-P6p">
-                                <rect key="frame" x="158.5" y="36" width="103.5" height="20"/>
+                                <rect key="frame" x="159" y="36" width="103.5" height="20"/>
                                 <fontDescription key="fontDescription" name="Dosis-Regular" family="Dosis" pointSize="14"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -445,7 +445,7 @@ Werken!</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dagelijks in &amp; uit" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JuW-Q4-4zd">
-                                <rect key="frame" x="158.5" y="36" width="103.5" height="20"/>
+                                <rect key="frame" x="159" y="36" width="103.5" height="20"/>
                                 <fontDescription key="fontDescription" name="Dosis-Regular" family="Dosis" pointSize="14"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -509,6 +509,12 @@ Werken!</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="swag" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WRa-Ev-i7Y">
+                                <rect key="frame" x="316" y="586" width="43" height="21"/>
+                                <fontDescription key="fontDescription" name="Dosis-Regular" family="Dosis" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -527,6 +533,7 @@ Werken!</string>
                             <constraint firstItem="p12-26-xen" firstAttribute="centerY" secondItem="XVO-MD-ivj" secondAttribute="centerY" id="Kgf-VM-NiH"/>
                             <constraint firstItem="p12-26-xen" firstAttribute="leading" secondItem="gbM-FR-9cC" secondAttribute="leading" constant="8" id="L6Y-Kp-CfC"/>
                             <constraint firstItem="Hpj-5V-bEB" firstAttribute="leading" secondItem="gbM-FR-9cC" secondAttribute="leading" constant="8" id="LDU-Ua-r1u"/>
+                            <constraint firstItem="WRa-Ev-i7Y" firstAttribute="top" secondItem="oc2-dD-qI6" secondAttribute="bottom" id="PJ2-4J-lUA"/>
                             <constraint firstItem="XVO-MD-ivj" firstAttribute="centerX" secondItem="gbM-FR-9cC" secondAttribute="centerX" id="Pew-F3-bow"/>
                             <constraint firstItem="gbM-FR-9cC" firstAttribute="bottom" secondItem="XVO-MD-ivj" secondAttribute="bottom" constant="120" id="QfK-NM-W5D"/>
                             <constraint firstItem="JuW-Q4-4zd" firstAttribute="top" secondItem="gbM-FR-9cC" secondAttribute="top" constant="16" id="Qjj-eU-ctR"/>
@@ -559,6 +566,7 @@ Werken!</string>
                             <constraint firstItem="OZ7-7S-Ukr" firstAttribute="leading" secondItem="Hpj-5V-bEB" secondAttribute="trailing" constant="6" id="szZ-fW-5gB"/>
                             <constraint firstItem="xV7-WC-O8D" firstAttribute="centerY" secondItem="OZ7-7S-Ukr" secondAttribute="centerY" id="vpO-bw-sa3"/>
                             <constraint firstItem="SQY-IB-nka" firstAttribute="width" secondItem="Hpj-5V-bEB" secondAttribute="width" id="wVg-lc-DmS"/>
+                            <constraint firstItem="gbM-FR-9cC" firstAttribute="trailing" secondItem="WRa-Ev-i7Y" secondAttribute="trailing" constant="16" id="xml-LH-JbB"/>
                             <constraint firstItem="Gz0-vF-LV0" firstAttribute="top" secondItem="gHj-qh-7IZ" secondAttribute="bottom" constant="8" id="ywK-QF-6T2"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="gbM-FR-9cC"/>
@@ -575,6 +583,7 @@ Werken!</string>
                         <outlet property="productTitleLabel" destination="gHj-qh-7IZ" id="2Yc-ps-A78"/>
                         <outlet property="purchaseButton" destination="IMB-v8-QM0" id="Fzo-rG-IFy"/>
                         <outlet property="spendingsLabel" destination="b85-6u-nEt" id="nnT-bo-B6C"/>
+                        <outlet property="swagLabel" destination="WRa-Ev-i7Y" id="cRH-2p-SuV"/>
                         <outlet property="swipeLeftButton" destination="p12-26-xen" id="2IP-9l-rA6"/>
                         <outlet property="swipeRightButton" destination="JlV-d2-tzR" id="oo3-2A-lIM"/>
                         <outlet property="workButton" destination="85j-WD-8jX" id="Tvc-1C-Hqc"/>
@@ -735,6 +744,6 @@ Werken!</string>
         <image name="werktimer" width="80" height="80"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="UXZ-zT-Quo"/>
+        <segue reference="dCE-d5-jbg"/>
     </inferredMetricsTieBreakers>
 </document>
