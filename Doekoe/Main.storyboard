@@ -218,23 +218,23 @@ Werken!</string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gezondheid_bar" translatesAutoresizingMaskIntoConstraints="NO" id="7XY-9G-ueL">
-                                <rect key="frame" x="216" y="433" width="127" height="32"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gezondheidbar_hoog" translatesAutoresizingMaskIntoConstraints="NO" id="7XY-9G-ueL">
+                                <rect key="frame" x="216" y="436" width="127" height="32"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gezondheid" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BJB-ng-usK">
-                                <rect key="frame" x="256" y="410" width="87" height="19"/>
+                                <rect key="frame" x="256" y="413" width="87" height="19"/>
                                 <fontDescription key="fontDescription" name="Dosis-SemiBold" family="Dosis" pointSize="16"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swag" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OWt-dx-MLM">
-                                <rect key="frame" x="302.5" y="469" width="40.5" height="19"/>
+                                <rect key="frame" x="302.5" y="472" width="40.5" height="19"/>
                                 <fontDescription key="fontDescription" name="Dosis-SemiBold" family="Dosis" pointSize="16"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gezondheid_bar" translatesAutoresizingMaskIntoConstraints="NO" id="zx8-hO-nkU">
-                                <rect key="frame" x="216" y="494" width="127" height="32"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="swagbar_laag" translatesAutoresizingMaskIntoConstraints="NO" id="zx8-hO-nkU">
+                                <rect key="frame" x="216" y="497" width="127" height="29"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -292,6 +292,7 @@ Werken!</string>
                         <outlet property="earningsLabel" destination="A7S-yK-Pgz" id="Am7-kq-Maj"/>
                         <outlet property="moneyLabel" destination="Puu-iQ-SNq" id="KjO-fB-DVS"/>
                         <outlet property="spendingsLabel" destination="EkS-DI-RL3" id="AkK-6f-Q0K"/>
+                        <outlet property="swagLevelImageView" destination="zx8-hO-nkU" id="2m6-DJ-cho"/>
                         <outlet property="textBubbleLabel" destination="eP0-AQ-Mdt" id="CXn-JY-xdx"/>
                         <segue destination="37o-FK-HDD" kind="presentation" identifier="fine_segue" id="FI2-sV-1r0"/>
                     </connections>
@@ -697,12 +698,13 @@ Werken!</string>
         <image name="btn_dagelijks_in" width="112" height="34"/>
         <image name="btn_dagelijks_uit" width="103" height="36"/>
         <image name="btn_ga_werken" width="79" height="79"/>
-        <image name="gezondheid_bar" width="127" height="32"/>
+        <image name="gezondheidbar_hoog" width="127" height="32"/>
         <image name="ic_keyboard_arrow_left_white" width="24" height="24"/>
         <image name="ic_keyboard_arrow_right_white" width="24" height="24"/>
         <image name="icn_settings" width="22" height="22"/>
         <image name="icn_shop" width="28" height="25"/>
         <image name="icn_you@2x_thumb" width="66" height="68"/>
         <image name="life_event_bg" width="354" height="589"/>
+        <image name="swagbar_laag" width="127" height="29"/>
     </resources>
 </document>

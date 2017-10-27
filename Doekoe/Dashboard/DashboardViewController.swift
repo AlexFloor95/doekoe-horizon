@@ -15,6 +15,8 @@ class DashboardViewController: UIViewController {
     @IBOutlet weak var earningsLabel: UILabel!
     @IBOutlet weak var spendingsLabel: UILabel!
     
+    @IBOutlet weak var swagLevelImageView: UIImageView!
+    
     @IBOutlet weak var characterView: CharacterView!
     
     override func viewDidLoad() {
@@ -45,7 +47,9 @@ class DashboardViewController: UIViewController {
         spendingsLabel.text = "→ € " + (CharacterService.shared().getCharacter()?.costs?.description)!
         moneyLabel.text = "€ " + (CharacterService.shared().getCharacter()?.money?.description)!
         earningsLabel.text = "← € " + (CharacterService.shared().getCharacter()?.earnings?.description)!
-        print("selected cosmetic: " + (CharacterService.shared().getCharacter()?.selected_cosmetics!.description)!)
+        if (CharacterService.shared().getCharacter()?.selected_cosmetics == 3) {
+            swagLevelImageView.image = UIImage(named:"swagbar_hoog")
+        }
         if (CharacterService.shared().getCharacter()?.selected_cosmetics == 3 && !(CharacterService.shared().getCharacter()?.payedFine)!) {
             DispatchQueue.main.asyncAfter(deadline: .now() + 8) {
                 self.performSegue(withIdentifier: "fine_segue", sender: self)
