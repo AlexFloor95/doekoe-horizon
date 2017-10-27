@@ -12,6 +12,7 @@ class WorkViewController: UIViewController {
     
     @IBOutlet weak var workLoadImageView: UIImageView!
     var workingImages : [UIImage]? = [UIImage]()
+    @IBOutlet weak var moneyLabel: UILabel!
     
     var actionsLeft = 3
     
@@ -46,8 +47,8 @@ class WorkViewController: UIViewController {
         actionsLeft -= 1
         guard actionsLeft >= 0 else {
             CharacterService.shared().getCharacter()?.worked(for: moneyEarnings)
-            self.dismiss(animated: true, completion: nil)
-            print("Lekker gedaan pik!")
+            moneyLabel.textColor = UIColor(displayP3Red: 0, green: 148/255, blue: 68/255, alpha: 1.0)
+            moneyLabel.text = "+ € 30,00"
             return
         }
         workLoadImageView.image = workingImages![actionsLeft]
@@ -56,6 +57,5 @@ class WorkViewController: UIViewController {
     @IBAction func closeWorkModal(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
     }
-    
     
 }

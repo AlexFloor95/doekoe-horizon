@@ -109,46 +109,46 @@ Werken!</string>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Je cash" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EYt-Yh-Vjd">
-                                <rect key="frame" x="8" y="51" width="140" height="26"/>
+                                <rect key="frame" x="8" y="51" width="140" height="28"/>
                                 <fontDescription key="fontDescription" name="Dosis-Regular" family="Dosis" pointSize="22"/>
                                 <color key="textColor" red="1" green="0.64705882349999999" blue="0.078431372550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ 50" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Puu-iQ-SNq">
-                                <rect key="frame" x="8" y="76" width="140" height="33"/>
+                                <rect key="frame" x="8" y="76" width="140" height="35.5"/>
                                 <fontDescription key="fontDescription" name="Dosis-ExtraBold" family="Dosis" pointSize="28"/>
                                 <color key="textColor" red="1" green="0.64705882349999999" blue="0.078431372550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="← 40,00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A7S-yK-Pgz">
-                                <rect key="frame" x="154" y="71" width="112" height="21"/>
+                                <rect key="frame" x="154" y="70" width="112" height="23"/>
                                 <fontDescription key="fontDescription" name="Dosis-SemiBold" family="Dosis" pointSize="18"/>
                                 <color key="textColor" red="0.0" green="0.58039215686274503" blue="0.26666666666666666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="→ 12,88" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EkS-DI-RL3">
-                                <rect key="frame" x="153.5" y="106" width="103" height="21"/>
+                                <rect key="frame" x="153.5" y="105" width="103" height="23"/>
                                 <fontDescription key="fontDescription" name="Dosis-SemiBold" family="Dosis" pointSize="18"/>
                                 <color key="textColor" red="0.74509803921568629" green="0.11764705882352941" blue="0.1764705882352941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dagelijks in &amp; uit" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MYO-Us-P6p">
-                                <rect key="frame" x="158.5" y="36" width="103.5" height="20"/>
+                                <rect key="frame" x="167" y="36" width="87" height="20"/>
                                 <fontDescription key="fontDescription" name="Dosis-Regular" family="Dosis" pointSize="14"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gezondheidbar_hoog" translatesAutoresizingMaskIntoConstraints="NO" id="7XY-9G-ueL">
-                                <rect key="frame" x="216" y="436" width="127" height="32"/>
+                                <rect key="frame" x="216" y="434.5" width="127" height="32"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gezondheid" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BJB-ng-usK">
-                                <rect key="frame" x="256" y="413" width="87" height="19"/>
+                                <rect key="frame" x="268" y="410" width="75" height="20.5"/>
                                 <fontDescription key="fontDescription" name="Dosis-SemiBold" family="Dosis" pointSize="16"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swag" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OWt-dx-MLM">
-                                <rect key="frame" x="302.5" y="472" width="40.5" height="19"/>
+                                <rect key="frame" x="309" y="470.5" width="34" height="20.5"/>
                                 <fontDescription key="fontDescription" name="Dosis-SemiBold" family="Dosis" pointSize="16"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -235,28 +235,25 @@ Werken!</string>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="life_event_bg" translatesAutoresizingMaskIntoConstraints="NO" id="S7o-iH-7lc">
                                 <rect key="frame" x="16" y="20" width="343" height="631"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="uwZ-Rv-2dN">
-                                <rect key="frame" x="32" y="211" width="311" height="378"/>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uwZ-Rv-2dN">
+                                <rect key="frame" x="32" y="222" width="311" height="365"/>
                                 <gestureRecognizers/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="378" id="2te-ZO-lrW"/>
+                                    <constraint firstAttribute="height" constant="300" id="q1E-Wx-9nr"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Autowassen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IRa-sE-SJn">
-                                <rect key="frame" x="91" y="34" width="252" height="21"/>
-                                <fontDescription key="fontDescription" name="Dosis-ExtraBold" family="Dosis" pointSize="24"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Autowassen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IRa-sE-SJn">
+                                <rect key="frame" x="86" y="36" width="257" height="33"/>
+                                <fontDescription key="fontDescription" name="Dosis-ExtraBold" family="Dosis" pointSize="26"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="De auto van de buurman is vies was die pooierbak van hem schoon om 30 euries op te strijken!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FEg-Yt-rDP">
-                                <rect key="frame" x="32" y="79" width="311" height="124"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="124" id="jOe-80-1ct"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Dosis-Regular" family="Dosis" pointSize="20"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Handen uit de mouwen! Je kunt de auto van je buurman wassen voor 30 euro." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FEg-Yt-rDP">
+                                <rect key="frame" x="32" y="77" width="311" height="91.5"/>
+                                <fontDescription key="fontDescription" name="Dosis-Regular" family="Dosis" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Klik op de auto om hem te poetsen" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ade-Hl-mZ3">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Klik op de auto om hem te poetsen" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ade-Hl-mZ3">
                                 <rect key="frame" x="26" y="605" width="311" height="21"/>
                                 <fontDescription key="fontDescription" name="Dosis-Regular" family="Dosis" pointSize="22"/>
                                 <nil key="textColor"/>
@@ -273,23 +270,34 @@ Werken!</string>
                                     <action selector="closeWorkModal:" destination="6dM-gz-qPg" eventType="touchUpInside" id="9Os-m5-M6a"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="€ 30,00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="62S-Cd-UPy">
+                                <rect key="frame" x="32" y="157" width="311" height="33"/>
+                                <fontDescription key="fontDescription" name="Dosis-ExtraBold" family="Dosis" pointSize="26"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="FEg-Yt-rDP" firstAttribute="leading" secondItem="9iI-Nm-wuA" secondAttribute="leading" constant="32" id="5N2-DH-9nJ"/>
                             <constraint firstAttribute="bottom" secondItem="wTw-t5-27l" secondAttribute="bottom" id="6wG-E4-XQD"/>
+                            <constraint firstItem="9iI-Nm-wuA" firstAttribute="trailing" secondItem="62S-Cd-UPy" secondAttribute="trailing" constant="32" id="6yH-Ub-1pO"/>
                             <constraint firstItem="9iI-Nm-wuA" firstAttribute="trailing" secondItem="S7o-iH-7lc" secondAttribute="trailing" constant="16" id="9nQ-sv-94c"/>
                             <constraint firstItem="ade-Hl-mZ3" firstAttribute="trailing" secondItem="S7o-iH-7lc" secondAttribute="trailing" constant="-16" id="Cyr-aN-fvL"/>
                             <constraint firstItem="ade-Hl-mZ3" firstAttribute="top" secondItem="uwZ-Rv-2dN" secondAttribute="bottom" constant="16" id="D6n-3J-QRe"/>
                             <constraint firstItem="uwZ-Rv-2dN" firstAttribute="trailing" secondItem="S7o-iH-7lc" secondAttribute="trailing" constant="-16" id="Fq6-z0-MkW"/>
                             <constraint firstItem="ade-Hl-mZ3" firstAttribute="bottom" secondItem="S7o-iH-7lc" secondAttribute="bottom" constant="-20" id="MPB-v4-wGh"/>
-                            <constraint firstItem="uwZ-Rv-2dN" firstAttribute="top" secondItem="FEg-Yt-rDP" secondAttribute="bottom" constant="8" id="Nzw-sl-AB0"/>
                             <constraint firstItem="wTw-t5-27l" firstAttribute="leading" secondItem="qcv-af-1CD" secondAttribute="leading" id="O40-r2-Oyi"/>
                             <constraint firstItem="I1x-rp-z23" firstAttribute="top" secondItem="qcv-af-1CD" secondAttribute="top" constant="16" id="Oc2-de-UXg"/>
                             <constraint firstItem="9iI-Nm-wuA" firstAttribute="bottom" secondItem="S7o-iH-7lc" secondAttribute="bottom" constant="16" id="QLX-5A-fVP"/>
+                            <constraint firstItem="IRa-sE-SJn" firstAttribute="leading" secondItem="I1x-rp-z23" secondAttribute="trailing" constant="20" id="Sg7-d0-jUI"/>
+                            <constraint firstItem="IRa-sE-SJn" firstAttribute="top" secondItem="9iI-Nm-wuA" secondAttribute="top" constant="16" id="ZVf-AO-Gvl"/>
+                            <constraint firstItem="62S-Cd-UPy" firstAttribute="leading" secondItem="9iI-Nm-wuA" secondAttribute="leading" constant="32" id="diQ-wg-Paa"/>
+                            <constraint firstItem="uwZ-Rv-2dN" firstAttribute="top" secondItem="62S-Cd-UPy" secondAttribute="bottom" constant="32" id="fwn-vJ-17l"/>
                             <constraint firstItem="ade-Hl-mZ3" firstAttribute="leading" secondItem="S7o-iH-7lc" secondAttribute="leading" constant="16" id="fzK-9D-omO"/>
                             <constraint firstItem="FEg-Yt-rDP" firstAttribute="top" secondItem="IRa-sE-SJn" secondAttribute="bottom" constant="8" id="gbX-9v-7SS"/>
                             <constraint firstItem="S7o-iH-7lc" firstAttribute="leading" secondItem="9iI-Nm-wuA" secondAttribute="leading" constant="16" id="hjM-gG-8cN"/>
+                            <constraint firstItem="62S-Cd-UPy" firstAttribute="top" secondItem="FEg-Yt-rDP" secondAttribute="top" constant="120" id="kQU-FT-82e"/>
                             <constraint firstItem="wTw-t5-27l" firstAttribute="top" secondItem="qcv-af-1CD" secondAttribute="top" id="phS-hf-DE3"/>
                             <constraint firstItem="I1x-rp-z23" firstAttribute="leading" secondItem="9iI-Nm-wuA" secondAttribute="leading" constant="16" id="ps4-UG-Xlk"/>
                             <constraint firstItem="S7o-iH-7lc" firstAttribute="top" secondItem="9iI-Nm-wuA" secondAttribute="top" id="sKO-Uy-UCA"/>
@@ -301,6 +309,7 @@ Werken!</string>
                         <viewLayoutGuide key="safeArea" id="9iI-Nm-wuA"/>
                     </view>
                     <connections>
+                        <outlet property="moneyLabel" destination="62S-Cd-UPy" id="yOP-ua-UJu"/>
                         <outlet property="workLoadImageView" destination="uwZ-Rv-2dN" id="3Qr-dW-Qsy"/>
                     </connections>
                 </viewController>
@@ -411,31 +420,31 @@ Werken!</string>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Je cash" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SQY-IB-nka">
-                                <rect key="frame" x="8" y="51" width="140" height="26"/>
+                                <rect key="frame" x="8" y="51" width="140" height="28"/>
                                 <fontDescription key="fontDescription" name="Dosis-Regular" family="Dosis" pointSize="22"/>
                                 <color key="textColor" red="1" green="0.64705882349999999" blue="0.078431372550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ 50" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DhB-l1-TkN">
-                                <rect key="frame" x="8" y="76" width="140" height="33"/>
+                                <rect key="frame" x="8" y="76" width="140" height="35.5"/>
                                 <fontDescription key="fontDescription" name="Dosis-ExtraBold" family="Dosis" pointSize="28"/>
                                 <color key="textColor" red="1" green="0.64705882349999999" blue="0.078431372550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="← 40,00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xV7-WC-O8D">
-                                <rect key="frame" x="154" y="71" width="112" height="21"/>
+                                <rect key="frame" x="154" y="70" width="112" height="23"/>
                                 <fontDescription key="fontDescription" name="Dosis-SemiBold" family="Dosis" pointSize="18"/>
                                 <color key="textColor" red="0.0" green="0.58039215690000001" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="→ 12,88" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b85-6u-nEt">
-                                <rect key="frame" x="153.5" y="106" width="103" height="21"/>
+                                <rect key="frame" x="153.5" y="105" width="103" height="23"/>
                                 <fontDescription key="fontDescription" name="Dosis-SemiBold" family="Dosis" pointSize="18"/>
                                 <color key="textColor" red="0.74509803919999995" green="0.1176470588" blue="0.1764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dagelijks in &amp; uit" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JuW-Q4-4zd">
-                                <rect key="frame" x="158.5" y="36" width="103.5" height="20"/>
+                                <rect key="frame" x="167" y="36" width="87" height="20"/>
                                 <fontDescription key="fontDescription" name="Dosis-Regular" family="Dosis" pointSize="14"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -482,13 +491,13 @@ Werken!</string>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Product title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gHj-qh-7IZ">
-                                <rect key="frame" x="24" y="506" width="237" height="26"/>
+                                <rect key="frame" x="24" y="506" width="237" height="28"/>
                                 <fontDescription key="fontDescription" name="Dosis-ExtraBold" family="Dosis" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Product price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gz0-vF-LV0">
-                                <rect key="frame" x="128" y="540" width="133" height="26"/>
+                                <rect key="frame" x="140" y="542" width="121" height="28"/>
                                 <fontDescription key="fontDescription" name="Dosis-Bold" family="Dosis" pointSize="22"/>
                                 <color key="textColor" red="0.74509803919999995" green="0.1176470588" blue="0.1764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -585,13 +594,13 @@ Werken!</string>
                                 <rect key="frame" x="-0.5" y="0.0" width="375" height="667"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Je stack:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zwX-lg-hbU">
-                                <rect key="frame" x="173" y="36" width="88.5" height="26"/>
+                                <rect key="frame" x="191.5" y="36" width="74" height="28"/>
                                 <fontDescription key="fontDescription" name="Dosis-Regular" family="Dosis" pointSize="22"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="€ 20,50" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fvU-M2-3ZO">
-                                <rect key="frame" x="269.5" y="36" width="73.5" height="26"/>
+                                <rect key="frame" x="273.5" y="36" width="69.5" height="28"/>
                                 <fontDescription key="fontDescription" name="Dosis-Bold" family="Dosis" pointSize="22"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -634,13 +643,13 @@ Werken!</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Totale kosten" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1U4-kT-PN1">
-                                <rect key="frame" x="32" y="198.5" width="142.5" height="25.5"/>
+                                <rect key="frame" x="32" y="198.5" width="120" height="25.5"/>
                                 <fontDescription key="fontDescription" name="Dosis-Regular" family="Dosis" pointSize="24"/>
                                 <color key="textColor" red="0.74509803919999995" green="0.1176470588" blue="0.1764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="$ 90,00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OvJ-0c-sVq">
-                                <rect key="frame" x="32" y="228" width="107" height="30.5"/>
+                                <rect key="frame" x="32" y="228" width="103" height="30.5"/>
                                 <fontDescription key="fontDescription" name="Dosis-ExtraBold" family="Dosis" pointSize="32"/>
                                 <color key="textColor" red="0.74509803919999995" green="0.1176470588" blue="0.1764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -719,7 +728,7 @@ Werken!</string>
         <image name="icn_you" width="22" height="22"/>
         <image name="icn_you@2x_thumb" width="66" height="68"/>
         <image name="life_event_bg" width="354" height="589"/>
-        <image name="schuldpreventie_rankings" width="84" height="150"/>
+        <image name="schuldpreventie_rankings" width="375" height="667"/>
         <image name="swagbar_laag" width="127" height="29"/>
     </resources>
     <inferredMetricsTieBreakers>
