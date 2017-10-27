@@ -8,10 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		3EF83AA09A7721F9786D9494 /* Pods_Doekoe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FEDCD06909C03C4B7F6A752 /* Pods_Doekoe.framework */; };
+		5E2F1A981FA316F300D11D65 /* FIne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2F1A971FA316F300D11D65 /* FIne.swift */; };
 		5E45859E1FA1E32900398B71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E45859D1FA1E32900398B71 /* LaunchScreen.storyboard */; };
 		5E4585A01FA1E34F00398B71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E45859F1FA1E34F00398B71 /* Main.storyboard */; };
 		5E4585A21FA1E6BA00398B71 /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4585A11FA1E6BA00398B71 /* ShopViewController.swift */; };
-		5E4585A41FA1E6E800398B71 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4585A31FA1E6E800398B71 /* QuizViewController.swift */; };
+		5E4585A41FA1E6E800398B71 /* FIneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4585A31FA1E6E800398B71 /* FIneViewController.swift */; };
 		5E4585A61FA1F39300398B71 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4585A51FA1F39300398B71 /* Character.swift */; };
 		5E4585A91FA1F4AD00398B71 /* Enumerations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4585A81FA1F4AD00398B71 /* Enumerations.swift */; };
 		5E4585AC1FA1F77400398B71 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4585AB1FA1F77400398B71 /* DashboardViewController.swift */; };
@@ -40,10 +41,11 @@
 
 /* Begin PBXFileReference section */
 		2FEDCD06909C03C4B7F6A752 /* Pods_Doekoe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Doekoe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E2F1A971FA316F300D11D65 /* FIne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIne.swift; sourceTree = "<group>"; };
 		5E45859D1FA1E32900398B71 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E45859F1FA1E34F00398B71 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		5E4585A11FA1E6BA00398B71 /* ShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
-		5E4585A31FA1E6E800398B71 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		5E4585A31FA1E6E800398B71 /* FIneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIneViewController.swift; sourceTree = "<group>"; };
 		5E4585A51FA1F39300398B71 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		5E4585A81FA1F4AD00398B71 /* Enumerations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enumerations.swift; sourceTree = "<group>"; };
 		5E4585AB1FA1F77400398B71 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
@@ -141,7 +143,7 @@
 				5E4585AA1FA1F76100398B71 /* Dashboard */,
 				5E4585A71FA1F49200398B71 /* Helpers */,
 				5E6776E81FA1D6730014A708 /* Shop */,
-				5E6776E71FA1D6630014A708 /* Quiz */,
+				5E6776E71FA1D6630014A708 /* Fine */,
 				5E6776E01FA1D3040014A708 /* Character */,
 				5E6776DD1FA1CFB10014A708 /* Onboarding */,
 				5E6776CB1FA1CEB00014A708 /* AppDelegate.swift */,
@@ -172,12 +174,13 @@
 			path = Character;
 			sourceTree = "<group>";
 		};
-		5E6776E71FA1D6630014A708 /* Quiz */ = {
+		5E6776E71FA1D6630014A708 /* Fine */ = {
 			isa = PBXGroup;
 			children = (
-				5E4585A31FA1E6E800398B71 /* QuizViewController.swift */,
+				5E4585A31FA1E6E800398B71 /* FIneViewController.swift */,
+				5E2F1A971FA316F300D11D65 /* FIne.swift */,
 			);
-			path = Quiz;
+			path = Fine;
 			sourceTree = "<group>";
 		};
 		5E6776E81FA1D6730014A708 /* Shop */ = {
@@ -370,11 +373,12 @@
 			files = (
 				5E6776E61FA1D4FC0014A708 /* Cosmetics.swift in Sources */,
 				5E8D8C1C1FA215F1009869DE /* ToolTipView.swift in Sources */,
-				5E4585A41FA1E6E800398B71 /* QuizViewController.swift in Sources */,
+				5E4585A41FA1E6E800398B71 /* FIneViewController.swift in Sources */,
 				5E4585A91FA1F4AD00398B71 /* Enumerations.swift in Sources */,
 				5E6776E41FA1D3BC0014A708 /* CharacterView.swift in Sources */,
 				5E4585A21FA1E6BA00398B71 /* ShopViewController.swift in Sources */,
 				5E6776CE1FA1CEB00014A708 /* OnboardingViewController.swift in Sources */,
+				5E2F1A981FA316F300D11D65 /* FIne.swift in Sources */,
 				5E4585AF1FA1FCDF00398B71 /* CharacterService.swift in Sources */,
 				5E8DEE131FA210EE00027504 /* TextBubbleView.swift in Sources */,
 				5E6776EC1FA1DE110014A708 /* XibView.swift in Sources */,

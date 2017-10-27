@@ -35,7 +35,10 @@ class ProductService {
                 newProduct.costs = product["product"]["cost"]["one-off"].int
                 newProduct.costsRepeating = product["product"]["cost"]["returning"].int
                 newProduct.healthEffect = product["product"]["healthEffect"].int
-                products.append(newProduct)
+                let itemsOwned = CharacterService.shared().getCharacter()?.ownedProducts
+                if (itemsOwned?.index(where: {$0.cosmeticsId == newProduct.cosmeticsId})) == nil {
+                    products.append(newProduct)
+                }
             }
         }
         return products

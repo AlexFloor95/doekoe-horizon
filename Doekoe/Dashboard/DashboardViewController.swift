@@ -22,6 +22,11 @@ class DashboardViewController: UIViewController {
         characterView.initializeCharacterView(withCharacter: CharacterService.shared().getCharacter()!)
         loadCharacterValues()
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        characterView.initializeCharacterView(withCharacter: CharacterService.shared().getCharacter()!)
+        loadCharacterValues()
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

@@ -24,13 +24,13 @@ class ShopViewController: UIViewController {
     
     @IBOutlet weak var characterView: CharacterView!
     
-    let products : [Product]? = ProductService.shared().getProducts()
+    var products : [Product]? = ProductService.shared().getProducts()
     var currentProduct = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
         purchaseButton.layer.cornerRadius = 3
-    characterView.initializeCharacterView(withCharacter: CharacterService.shared().getCharacter()!)
+        characterView.initializeCharacterView(withCharacter: CharacterService.shared().getCharacter()!)
         loadCharacterValues()
         loadProduct(product: products![currentProduct])
     }
@@ -70,6 +70,16 @@ class ShopViewController: UIViewController {
         else {
             currentProduct = 0
         }
+        loadProduct(product: products![currentProduct])
+    }
+    
+    @IBAction func purchaseProduct(_ sender: Any) {
+        CharacterService.shared().getCharacter()?.purchaseProduct(product: products![currentProduct])
+        productCycleRight(self)
+        products?.remove(at: currentProduct)
+        loadCharacterValues()
+        products = ProductService.shared().getProducts()
+        currentProduct = 0
         loadProduct(product: products![currentProduct])
     }
     

@@ -213,7 +213,7 @@ Werken!</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dagelijks in &amp; uit" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MYO-Us-P6p">
-                                <rect key="frame" x="158.5" y="36" width="103.5" height="20"/>
+                                <rect key="frame" x="159" y="36" width="103.5" height="20"/>
                                 <fontDescription key="fontDescription" name="Dosis-Regular" family="Dosis" pointSize="14"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -293,6 +293,7 @@ Werken!</string>
                         <outlet property="moneyLabel" destination="Puu-iQ-SNq" id="KjO-fB-DVS"/>
                         <outlet property="spendingsLabel" destination="EkS-DI-RL3" id="AkK-6f-Q0K"/>
                         <outlet property="textBubbleLabel" destination="eP0-AQ-Mdt" id="CXn-JY-xdx"/>
+                        <segue destination="37o-FK-HDD" kind="presentation" identifier="fine_segue" id="FI2-sV-1r0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="18T-2R-642" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -412,7 +413,7 @@ Werken!</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dagelijks in &amp; uit" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JuW-Q4-4zd">
-                                <rect key="frame" x="158.5" y="36" width="103.5" height="20"/>
+                                <rect key="frame" x="159" y="36" width="103.5" height="20"/>
                                 <fontDescription key="fontDescription" name="Dosis-Regular" family="Dosis" pointSize="14"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -454,6 +455,9 @@ Werken!</string>
                                 <state key="normal" title="Kopen">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="purchaseProduct:" destination="Juh-pk-7lS" eventType="touchUpInside" id="Aex-xl-94q"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Product title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gHj-qh-7IZ">
                                 <rect key="frame" x="24" y="506" width="237" height="26"/>
@@ -546,6 +550,143 @@ Werken!</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lTg-rt-mVF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="517.60000000000002" y="-516.79160419790105"/>
+        </scene>
+        <!--Fine View Controller-->
+        <scene sceneID="SKd-Rg-Ih5">
+            <objects>
+                <viewController id="37o-FK-HDD" customClass="FineViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Hwx-y5-f41">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg@2x_thumb" translatesAutoresizingMaskIntoConstraints="NO" id="ebH-2u-WWB">
+                                <rect key="frame" x="-0.5" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icn_you@2x_thumb" translatesAutoresizingMaskIntoConstraints="NO" id="vHf-Ti-Nmy">
+                                <rect key="frame" x="16" y="36" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="6f3-gY-8r5"/>
+                                    <constraint firstAttribute="height" constant="80" id="fVD-iu-fb1"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Je stack:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zwX-lg-hbU">
+                                <rect key="frame" x="173" y="36" width="88.5" height="26"/>
+                                <fontDescription key="fontDescription" name="Dosis-Regular" family="Dosis" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="€ 20,50" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fvU-M2-3ZO">
+                                <rect key="frame" x="269.5" y="36" width="73.5" height="26"/>
+                                <fontDescription key="fontDescription" name="Dosis-Bold" family="Dosis" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PL9-aB-1iQ">
+                                <rect key="frame" x="164" y="535" width="46" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.64705882349999999" blue="0.078431372550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Dosis-SemiBold" family="Dosis" pointSize="22"/>
+                                <state key="normal" title="denial_answer">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5C4-k4-wHd">
+                                <rect key="frame" x="174" y="545" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.64705882349999999" blue="0.078431372550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Dosis-SemiBold" family="Dosis" pointSize="22"/>
+                                <state key="normal" title="denial_answer">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gezondheid_bar" translatesAutoresizingMaskIntoConstraints="NO" id="XoT-ZP-fVN">
+                                <rect key="frame" x="16" y="124" width="343" height="479"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IVw-3R-wqK">
+                                <rect key="frame" x="32" y="507" width="311" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.64705882349999999" blue="0.078431372550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Dosis-SemiBold" family="Dosis" pointSize="17"/>
+                                <state key="normal" title="accept_answer">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rBi-IM-68n">
+                                <rect key="frame" x="31" y="545" width="312" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.64705882349999999" blue="0.078431372550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Dosis-SemiBold" family="Dosis" pointSize="17"/>
+                                <state key="normal" title="denial_answer">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="fine description" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Fl-eF-iR4">
+                                <rect key="frame" x="32" y="212" width="311" height="210"/>
+                                <fontDescription key="fontDescription" name="Dosis-Regular" family="Dosis" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Totale kosten" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1U4-kT-PN1">
+                                <rect key="frame" x="32" y="430" width="119" height="21"/>
+                                <fontDescription key="fontDescription" name="Dosis-Regular" family="Dosis" pointSize="20"/>
+                                <color key="textColor" red="0.74509803919999995" green="0.1176470588" blue="0.1764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="$ 90,00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OvJ-0c-sVq">
+                                <rect key="frame" x="32" y="468" width="80.5" height="21"/>
+                                <fontDescription key="fontDescription" name="Dosis-ExtraBold" family="Dosis" pointSize="24"/>
+                                <color key="textColor" red="0.74509803919999995" green="0.1176470588" blue="0.1764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="fine title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NXp-du-eTt">
+                                <rect key="frame" x="32" y="183" width="311" height="21"/>
+                                <fontDescription key="fontDescription" name="Dosis-ExtraBold" family="Dosis" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="1U4-kT-PN1" firstAttribute="top" secondItem="3Fl-eF-iR4" secondAttribute="bottom" constant="8" id="4vP-Xp-kln"/>
+                            <constraint firstItem="NXp-du-eTt" firstAttribute="trailing" secondItem="XoT-ZP-fVN" secondAttribute="trailing" constant="-16" id="6iS-C9-2ob"/>
+                            <constraint firstItem="XoT-ZP-fVN" firstAttribute="top" secondItem="vHf-Ti-Nmy" secondAttribute="bottom" constant="8" id="AQ1-fh-ytC"/>
+                            <constraint firstItem="c9A-Be-CdA" firstAttribute="bottom" secondItem="XoT-ZP-fVN" secondAttribute="bottom" constant="64" id="AVQ-CD-rv4"/>
+                            <constraint firstItem="IVw-3R-wqK" firstAttribute="trailing" secondItem="XoT-ZP-fVN" secondAttribute="trailing" constant="-16" id="BCy-oe-F0l"/>
+                            <constraint firstItem="ebH-2u-WWB" firstAttribute="leading" secondItem="Hwx-y5-f41" secondAttribute="leading" id="F3M-nD-ogR"/>
+                            <constraint firstItem="rBi-IM-68n" firstAttribute="width" secondItem="IVw-3R-wqK" secondAttribute="width" id="KgJ-z5-83K"/>
+                            <constraint firstItem="fvU-M2-3ZO" firstAttribute="centerY" secondItem="zwX-lg-hbU" secondAttribute="centerY" id="Rfg-Bn-8AE"/>
+                            <constraint firstItem="OvJ-0c-sVq" firstAttribute="top" secondItem="1U4-kT-PN1" secondAttribute="bottom" constant="4" id="W3K-gY-NU1"/>
+                            <constraint firstItem="IVw-3R-wqK" firstAttribute="top" secondItem="OvJ-0c-sVq" secondAttribute="bottom" constant="16" id="W3n-pb-U5H"/>
+                            <constraint firstItem="NXp-du-eTt" firstAttribute="leading" secondItem="XoT-ZP-fVN" secondAttribute="leading" constant="16" id="Yeu-Wi-0GU"/>
+                            <constraint firstItem="vHf-Ti-Nmy" firstAttribute="leading" secondItem="c9A-Be-CdA" secondAttribute="leading" constant="16" id="YuZ-x9-s9d"/>
+                            <constraint firstItem="3Fl-eF-iR4" firstAttribute="trailing" secondItem="XoT-ZP-fVN" secondAttribute="trailing" constant="-16" id="Zm1-zp-vTt"/>
+                            <constraint firstItem="IVw-3R-wqK" firstAttribute="leading" secondItem="XoT-ZP-fVN" secondAttribute="leading" constant="16" id="b2v-nS-Ys4"/>
+                            <constraint firstItem="rBi-IM-68n" firstAttribute="centerX" secondItem="IVw-3R-wqK" secondAttribute="centerX" id="ef2-i8-n90"/>
+                            <constraint firstItem="OvJ-0c-sVq" firstAttribute="leading" secondItem="XoT-ZP-fVN" secondAttribute="leading" constant="16" id="gxy-Hf-D4o"/>
+                            <constraint firstItem="1U4-kT-PN1" firstAttribute="leading" secondItem="XoT-ZP-fVN" secondAttribute="leading" constant="16" id="hG0-RA-SIP"/>
+                            <constraint firstItem="c9A-Be-CdA" firstAttribute="trailing" secondItem="fvU-M2-3ZO" secondAttribute="trailing" constant="32" id="jvF-n7-udN"/>
+                            <constraint firstItem="3Fl-eF-iR4" firstAttribute="top" secondItem="NXp-du-eTt" secondAttribute="bottom" constant="8" id="ksS-cq-Q7I"/>
+                            <constraint firstItem="ebH-2u-WWB" firstAttribute="top" secondItem="Hwx-y5-f41" secondAttribute="top" id="l4i-DS-S2F"/>
+                            <constraint firstItem="3Fl-eF-iR4" firstAttribute="leading" secondItem="XoT-ZP-fVN" secondAttribute="leading" constant="16" id="lST-kB-qZx"/>
+                            <constraint firstItem="c9A-Be-CdA" firstAttribute="trailing" secondItem="ebH-2u-WWB" secondAttribute="trailing" id="leZ-tM-fy8"/>
+                            <constraint firstItem="zwX-lg-hbU" firstAttribute="top" secondItem="vHf-Ti-Nmy" secondAttribute="top" id="lmq-Mn-huP"/>
+                            <constraint firstItem="fvU-M2-3ZO" firstAttribute="leading" secondItem="zwX-lg-hbU" secondAttribute="trailing" constant="8" id="mxE-Wa-34J"/>
+                            <constraint firstItem="vHf-Ti-Nmy" firstAttribute="top" secondItem="c9A-Be-CdA" secondAttribute="top" constant="16" id="mxq-2z-rQR"/>
+                            <constraint firstItem="c9A-Be-CdA" firstAttribute="trailing" secondItem="XoT-ZP-fVN" secondAttribute="trailing" constant="16" id="qmo-R2-3Xw"/>
+                            <constraint firstItem="XoT-ZP-fVN" firstAttribute="leading" secondItem="c9A-Be-CdA" secondAttribute="leading" constant="16" id="sj2-MJ-2H1"/>
+                            <constraint firstItem="PL9-aB-1iQ" firstAttribute="top" secondItem="IVw-3R-wqK" secondAttribute="bottom" constant="8" id="uEM-sp-NIg"/>
+                            <constraint firstAttribute="bottom" secondItem="ebH-2u-WWB" secondAttribute="bottom" id="wSH-Uj-Cbq"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="c9A-Be-CdA"/>
+                    </view>
+                    <connections>
+                        <outlet property="acceptButton" destination="IVw-3R-wqK" id="IOE-c5-Ufv"/>
+                        <outlet property="costsLabel" destination="OvJ-0c-sVq" id="VTE-cU-eh9"/>
+                        <outlet property="denyButton" destination="rBi-IM-68n" id="ijQ-3X-l9B"/>
+                        <outlet property="fineDescriptionLabel" destination="3Fl-eF-iR4" id="BpP-fP-HOQ"/>
+                        <outlet property="fineTitleLabel" destination="NXp-du-eTt" id="vNe-yP-O4e"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TMU-n8-qsG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1640.8" y="-517.6911544227886"/>
         </scene>
     </scenes>
     <resources>

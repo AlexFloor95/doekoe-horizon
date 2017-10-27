@@ -17,6 +17,7 @@ class Character {
     private let INITIAL_COSTS = 0
     // initial selected cosmetics
     private let INITIAL_COSMETICS = 0
+    private let INITIAL_PRODUCTS = [Product]()
     
     var money : Int?
     var health : Int?
@@ -29,6 +30,8 @@ class Character {
     var age : Int?
     // cosmetics
     var selected_cosmetics : Int?
+    // products
+    var ownedProducts : [Product]?
     
     init() {
         // TODO: refactor
@@ -39,5 +42,12 @@ class Character {
         earnings = INITIAL_EARNINGS
         costs = INITIAL_COSTS
         selected_cosmetics = INITIAL_COSMETICS
+        ownedProducts = INITIAL_PRODUCTS
+    }
+    
+    func purchaseProduct(product : Product) {
+        money! -= product.costs!
+        ownedProducts?.append(product)
+        selected_cosmetics = product.cosmeticsId
     }
 }
